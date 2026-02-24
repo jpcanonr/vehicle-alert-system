@@ -56,10 +56,10 @@ El **Vehicle Alert System** es una solución de microservicios que procesa event
                  │
     ┌────────────┴─────────────┬─────────────┐
     │                          │             │
-┌───▼────┐              ┌──────▼──────┐ ┌─┴─────┐
+┌───▼────┐              ┌──────▼──────┐ ┌────┴──┐
 │ API #1 │              │   API  #2   │ │API #3 │
 │ :8000  │              │   :8000     │ │:8000  │
-└───┬────┘              └──────┬──────┘ └─┬─────┘
+└───┬────┘              └──────┬──────┘ └──┬────┘
     │                          │           │
     └──────────────────────────┼───────────┘
                                │
@@ -71,9 +71,9 @@ El **Vehicle Alert System** es una solución de microservicios que procesa event
                                │
         ┌──────────────────────┼──────────────────────┐
         │                      │                      │
-    ┌───▼────┐          ┌──────▼──────┐          ┌───▼───┐
+    ┌───▼────┐          ┌──────▼──────┐          ┌────▼──┐
     │PROC #1 │          │   PROC #2   │    ...   │PROC N │
-    └───┬────┘          └──────┬──────┘          └───┬───┘
+    └───┬────┘          └──────┬──────┘          └────┬──┘
         │                      │                      │
         └──────────────────────┼──────────────────────┘
                                │
@@ -236,7 +236,7 @@ graph LR
 # Body:
 {
   "type": "Emergency",
-  "vehicle_plate": "ABC-1234",
+  "vehicle_plate": "ABC-123",
   "status": "ALERT"
 }
 ```
@@ -344,15 +344,14 @@ curl -X POST http://localhost:8080/events \
 ├── api.log          # Logs de ingesta API
 ├── processor.log    # Logs de procesamiento
 ├── notifier.log     # Logs de notificaciones
-└── nginx/
-    ├── access.log   # Accesos HTTP
-    └── error.log    # Errores de proxy
+├── access.log       # NGINX: Accesos HTTP
+└── error.log        # NGINX: Errores de proxy
 ```
 
 ### Formato de Logs
 ```
-2024-02-23T10:30:45,123 [API] [INFO] Evento recibido: Emergency - Placa ABC-1234
-2024-02-23T10:30:46,234 [PROCESSOR] [INFO] Evento procesado: Emergency - Placa ABC-1234
+2024-02-23T10:30:45,123 [API] [INFO] Evento recibido: Emergency - Placa ABC-123
+2024-02-23T10:30:46,234 [PROCESSOR] [INFO] Evento procesado: Emergency - Placa ABC-123
 2024-02-23T10:30:47,456 [NOTIFIER] [INFO] Correo enviado a juanpcr2009@gmail.com
 ```
 
@@ -507,6 +506,51 @@ docker-compose restart nginx
 **Status:** ✅ Funcional
 
 ---
+
+## 🧰 Scripts complementarios
+
+En la raíz del repositorio hay tres scripts Python útiles para tareas de mantenimiento y verificación. A continuación se describe su propósito y uso básico.
+
+- **`clear_logs.py` — Limpiar/truncar archivos de logs:**
+  - ¿Qué hace?: Busca todos los archivos regulares dentro de un directorio de logs (por defecto `logs`) y los trunca (vacía), liberando espacio sin eliminar los ficheros.
+  - Uso:
+    ```bash
+    # Pedirá confirmación interactiva
+    python3 clear_logs.py
+
+    # Sin confirmación (forzar)
+    python3 clear_logs.py --yes
+
+    # Simular la operación (dry-run)
+    python3 clear_logs.py --dry-run
+
+    # Usar un path distinto
+    python3 clear_logs.py --path /ruta/a/mis_logs
+    ```
+  - Notas de seguridad: Solo trunca archivos regulares; no borra directorios ni enlaces simbólicos. No hay recuperación, úsalo con precaución.
+
+- **`verify_email.py` — Enviar correo de prueba vía Gmail SMTP:**
+  - ¿Qué hace?: Envía un correo de prueba usando `smtplib.SMTP_SSL` a través de `smtp.gmail.com:465`. Está pensado para verificar que las credenciales y la conectividad SMTP funcionan.
+  - Uso básico:
+    1. Edita el script y coloca tu cuenta y App Password de Gmail (preferible usar variables de entorno en producción).
+    2. Ejecuta:
+    ```bash
+    python3 verify_email.py
+    ```
+  - Notas: Usa una contraseña de aplicación (App Password) en vez de la contraseña de la cuenta. El script actual es minimal y sirve como ejemplo/diagnóstico; evita hardcodear credenciales en entornos compartidos.
+
+- **`verify_sla.py` — Verificación básica de SLA a partir de logs:**
+  - ¿Qué hace?: Analiza `logs/api.log`, `logs/processor.log` y `logs/notifier.log` para extraer timestamps y correlacionar eventos por placa de vehículo. Calcula el tiempo entre la recepción inicial y la notificación final y marca cada evento como `OK (<15s)` o `FAIL (>15s)`.
+  - Uso:
+    ```bash
+    python3 verify_sla.py
+    ```
+  - Notas: El script usa expresiones regulares para buscar patrones específicos en los logs (timestamps y placas). Está pensado como una comprobación rápida; adapta los patrones si cambian los formatos de log.
+
+Si quieres, puedo:
+- Añadir enlaces desde la Tabla de Contenidos a esta sección.
+- Convertir `verify_email.py` para leer credenciales desde variables de entorno o un fichero `.env`.
+
 
 ## 📄 Licencia
 
