@@ -64,9 +64,9 @@ El **Vehicle Alert System** es una solución de microservicios que procesa event
     └──────────────────────────┼───────────┘
                                │
                     ┌──────────▼──────────┐
-                    │   RabbitMQ Queue   │
-                    │  (events queue)    │
-                    │   :5672/15672      │
+                    │   RabbitMQ Queue    │
+                    │  (events queue)     │
+                    │   :5672/15672       │
                     └──────────┬──────────┘
                                │
         ┌──────────────────────┼──────────────────────┐
@@ -312,7 +312,9 @@ curl -X POST http://localhost:8080/events \
       "longitude": 2.4414
     }
   }'
+```
 
+```bash
 # Evento normal
 curl -X POST http://localhost:8080/events \
   -H "Content-Type: application/json" \
