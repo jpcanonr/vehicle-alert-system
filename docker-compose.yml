@@ -1,0 +1,49 @@
+services:
+  nginx:
+    image: nginx:stable
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./logs:/var/log/nginx
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+
+  api:
+    build: ./api
+    deploy: 
+      replicas: 3
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+    volumes:
+      - ./logs:/logs
+    depends_on:
+      - rabbitmq
+
+  rabbitmq:
+    image: rabbitmq:4-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  processor:
+    build: ./processor
+    deploy: 
+      replicas: 4
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      - NOTIFIER_URL=http://notifier:8001/notify
+    volumes:
+      - ./logs:/logs
+    depends_on:
+      - rabbitmq
+      - notifier
+
+  notifier:
+    build: ./notifier
+    environment:
+      - GMAIL_USER=juanpcr2009@gmail.com
+      # Es necesario crear App Password en la cuenta de Gmail para usar esta contraseña
+      - GMAIL_PASS=opgrhevnwwktzywv
+    volumes:
+      - ./logs:/logs

@@ -1,0 +1,7 @@
+
+Subir nfraestructura:
+*********************
+docker-compose up --build
+docker-compose down
+
+Prueba rápida:
