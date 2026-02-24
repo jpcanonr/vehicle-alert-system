@@ -549,11 +549,6 @@ En la raíz del repositorio hay tres scripts Python útiles para tareas de mante
     ```
   - Notas: El script usa expresiones regulares para buscar patrones específicos en los logs (timestamps y placas). Está pensado como una comprobación rápida; adapta los patrones si cambian los formatos de log.
 
-Si quieres, puedo:
-- Añadir enlaces desde la Tabla de Contenidos a esta sección.
-- Convertir `verify_email.py` para leer credenciales desde variables de entorno o un fichero `.env`.
-
-
 ## 📄 Licencia
 
 Proyecto educativo - Uso libre para fines académicos
