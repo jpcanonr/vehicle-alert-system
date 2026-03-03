@@ -172,8 +172,19 @@ graph LR
 
 ## 🔧 Componentes
 
-### **API Service**
+### **NGINX (Reverse Proxy)**
+**Rol:** Expone y regula
+
+Actúa como frontera y regulador.
+- Expone el endpoint público.
+- Aplica reglas de seguridad y límites de tráfico (ej. 15 req/s).
+- Redirige las solicitudes hacia la API.
+- Es el componente que garantiza que el sistema no se sobrecargue.
+
+### **API Service (Python FastAPI)**
 **Rol:** Ingesta de eventos HTTP
+
+Es la puerta de entrada del sistema. Recibe las solicitudes externas (eventos) y las valida. Su responsabilidad es transformar esas peticiones en mensajes que se envían a la cola de RabbitMQ.
 
 ```python
 # Endpoint: POST /events
@@ -196,8 +207,13 @@ graph LR
 
 ---
 
-### **RabbitMQ**
+### **RabbitMQ (Message Broker)**
 **Rol:** Broker de mensajes confiable
+
+Es el bus de comunicación asíncrona.
+- Recibe los eventos de la API.
+- Los coloca en colas para que otros servicios los procesen.
+- Asegura que los mensajes no se pierdan y que puedan ser consumidos de manera ordenada.
 
 **Configuración:**
 - Queue: `events`
@@ -213,6 +229,11 @@ graph LR
 
 ### **Processor Service**
 **Rol:** Consumidor de eventos y filtrado
+
+Es el motor de procesamiento.
+- Consume los mensajes de RabbitMQ.
+- Ejecuta la lógica de negocio (ej. interpretar el evento, transformarlo, enriquecerlo).
+- Prepara la información para que otros servicios la usen.
 
 **Lógica:**
 1. Conecta a RabbitMQ
@@ -230,6 +251,11 @@ graph LR
 
 ### **Notifier Service**
 **Rol:** Envío de notificaciones por correo
+
+Es el servicio de comunicación.
+- Recibe del Processor los eventos ya procesados.
+- Envía notificaciones (ej. correos electrónicos).
+- Garantiza que la información llegue a los usuarios finales o sistemas externos.
 
 ```python
 # Endpoint: POST /notify
