@@ -331,8 +331,7 @@ curl -X POST http://localhost:8080/events \
 ### Respuesta Exitosa
 ```json
 {
-  "status": "received",
-  "message": "Evento encolado en RabbitMQ"
+  "status": "ok"
 }
 ```
 
@@ -411,15 +410,6 @@ docker-compose up -d
 | Réplicas Processor | 4 | Procesa 250 msgs/s con latencia |
 | Throughput Total | ~1000 eventos | Objetivo funcional |
 | Latencia P99 | <2seg | API → Queue → Processor → Email |
-
-### Bottlenecks y Soluciones
-
-| Cuello de Botella | Síntoma | Solución |
-|------------------|---------|----------|
-| NGINX | CPU >80% | ↓ Aumentar réplicas API |
-| RabbitMQ | Queue depth >1000 | ↓ Aumentar réplicas Processor |
-| Notifier | Rate limit Gmail | → Implementar backoff exponencial |
-| Disco (logs) | Espacio <10% | → Implementar rotación de logs |
 
 ---
 
