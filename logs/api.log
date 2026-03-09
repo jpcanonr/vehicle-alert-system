@@ -1,0 +1,1192 @@
+2026-03-09 01:53:37,669 [API] [INFO] Evento recibido y publicado: Position - Placa TYB-818
+2026-03-09 01:53:37,760 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:37,762 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:37,759 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:37,761 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:37,764 [API] [INFO] Socket connected: <socket.socket fd=25, family=2, type=1, proto=6, laddr=('172.18.0.6', 52140), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:37,765 [API] [INFO] Socket connected: <socket.socket fd=25, family=2, type=1, proto=6, laddr=('172.18.0.6', 52142), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:37,771 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:37,769 [API] [INFO] Socket connected: <socket.socket fd=25, family=2, type=1, proto=6, laddr=('172.18.0.4', 59182), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:37,771 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:37,775 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b2d6f90>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b2d6f90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:37,771 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba426f90>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba426f90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:37,772 [API] [INFO] Socket connected: <socket.socket fd=25, family=2, type=1, proto=6, laddr=('172.18.0.4', 59188), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:37,773 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:37,774 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba4270e0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba4270e0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:37,777 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b2d6f90>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b2d6f90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:37,775 [API] [INFO] Socket connected: <socket.socket fd=25, family=2, type=1, proto=6, laddr=('172.18.0.9', 42122), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:37,775 [API] [INFO] Socket connected: <socket.socket fd=25, family=2, type=1, proto=6, laddr=('172.18.0.9', 42120), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:37,777 [API] [INFO] Socket connected: <socket.socket fd=25, family=2, type=1, proto=6, laddr=('172.18.0.6', 52146), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:37,775 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:37,780 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6ccaf90>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6ccaf90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:37,780 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6ccb230>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6ccb230> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:37,781 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba427230>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba427230> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:37,782 [API] [INFO] Socket connected: <socket.socket fd=25, family=2, type=1, proto=6, laddr=('172.18.0.9', 42138), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:37,790 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6cc70e0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6cc70e0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:37,795 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:37,800 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba4270e0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,801 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba4270e0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,799 [API] [INFO] Socket connected: <socket.socket fd=25, family=2, type=1, proto=6, laddr=('172.18.0.6', 52152), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:37,803 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6cc70e0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,801 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b2d6f90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,805 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba42af90>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba42af90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:37,802 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba4270e0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,802 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b2d6f90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,807 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b2d6f90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,804 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba427230> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,805 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6cc70e0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,805 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b2d6f90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,805 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6ccb230> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,810 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6ccb230> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,806 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba426f90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,806 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6ccaf90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,807 [API] [INFO] Created channel=1
+2026-03-09 01:53:37,808 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b2d6f90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,808 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba427230> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,809 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6cc70e0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,809 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b2d6f90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,815 [API] [INFO] Created channel=1
+2026-03-09 01:53:37,811 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6ccb230> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,816 [API] [INFO] Created channel=1
+2026-03-09 01:53:37,811 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6ccaf90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,811 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba426f90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,813 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba427230> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,813 [API] [INFO] Created channel=1
+2026-03-09 01:53:37,817 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6ccaf90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,818 [API] [INFO] Created channel=1
+2026-03-09 01:53:37,818 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba426f90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,818 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba42af90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,821 [API] [INFO] Created channel=1
+2026-03-09 01:53:37,819 [API] [INFO] Created channel=1
+2026-03-09 01:53:37,819 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473380336000)
+2026-03-09 01:53:37,823 [API] [INFO] Evento recibido y publicado: Position - Placa DSR-200
+2026-03-09 01:53:37,820 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473508065664)
+2026-03-09 01:53:37,820 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473834566016)
+2026-03-09 01:53:37,821 [API] [INFO] Created channel=1
+2026-03-09 01:53:37,821 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba42af90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,825 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba42af90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,827 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473834566016)
+2026-03-09 01:53:37,822 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473380336000)
+2026-03-09 01:53:37,823 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473508065664)
+2026-03-09 01:53:37,830 [API] [INFO] Created channel=1
+2026-03-09 01:53:37,824 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473834566016)
+2026-03-09 01:53:37,825 [API] [INFO] Evento recibido y publicado: Position - Placa ISD-035
+2026-03-09 01:53:37,835 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473508065664)
+2026-03-09 01:53:37,825 [API] [INFO] Evento recibido y publicado: Position - Placa IMK-422
+2026-03-09 01:53:37,831 [API] [INFO] Evento recibido y publicado: Position - Placa FRW-287
+2026-03-09 01:53:37,834 [API] [INFO] Evento recibido y publicado: Position - Placa ZLD-376
+2026-03-09 01:53:37,835 [API] [INFO] Evento recibido y publicado: Position - Placa AYX-271
+2026-03-09 01:53:37,835 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473834566016)
+2026-03-09 01:53:37,837 [API] [INFO] Evento recibido y publicado: Position - Placa QEB-157
+2026-03-09 01:53:37,840 [API] [INFO] Evento recibido y publicado: Position - Placa SOI-230
+2026-03-09 01:53:37,840 [API] [INFO] Evento recibido y publicado: Position - Placa UOL-307
+2026-03-09 01:53:37,855 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:37,856 [API] [INFO] Socket connected: <socket.socket fd=25, family=2, type=1, proto=6, laddr=('172.18.0.9', 42142), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:37,858 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6ccaf90>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6ccaf90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:37,861 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6ccaf90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,862 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6ccaf90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,863 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6ccaf90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,863 [API] [INFO] Created channel=1
+2026-03-09 01:53:37,866 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473508065664)
+2026-03-09 01:53:37,866 [API] [INFO] Evento recibido y publicado: Position - Placa QAH-409
+2026-03-09 01:53:37,928 [API] [INFO] Evento recibido y publicado: Position - Placa WQF-640
+2026-03-09 01:53:37,941 [API] [INFO] Evento recibido y publicado: Position - Placa MTP-434
+2026-03-09 01:53:37,941 [API] [INFO] Evento recibido y publicado: Position - Placa ZTR-833
+2026-03-09 01:53:37,943 [API] [INFO] Evento recibido y publicado: Position - Placa KIO-696
+2026-03-09 01:53:37,943 [API] [INFO] Evento recibido y publicado: Position - Placa NNG-849
+2026-03-09 01:53:37,946 [API] [INFO] Evento recibido y publicado: Position - Placa RQH-661
+2026-03-09 01:53:37,950 [API] [INFO] Evento recibido y publicado: Position - Placa CUQ-620
+2026-03-09 01:53:37,950 [API] [INFO] Evento recibido y publicado: Position - Placa RSI-202
+2026-03-09 01:53:37,970 [API] [INFO] Evento recibido y publicado: Position - Placa CSI-804
+2026-03-09 01:53:37,974 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:37,975 [API] [INFO] Socket connected: <socket.socket fd=25, family=2, type=1, proto=6, laddr=('172.18.0.4', 59196), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:37,975 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b2d70e0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b2d70e0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:37,978 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b2d70e0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,978 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b2d70e0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,979 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b2d70e0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:37,979 [API] [INFO] Created channel=1
+2026-03-09 01:53:37,981 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473380336000)
+2026-03-09 01:53:37,981 [API] [INFO] Evento recibido y publicado: Position - Placa YCI-566
+2026-03-09 01:53:38,032 [API] [INFO] Evento recibido y publicado: Position - Placa XMX-537
+2026-03-09 01:53:38,049 [API] [INFO] Evento recibido y publicado: Position - Placa TRK-428
+2026-03-09 01:53:38,052 [API] [INFO] Evento recibido y publicado: Position - Placa NTH-065
+2026-03-09 01:53:38,053 [API] [INFO] Evento recibido y publicado: Position - Placa ZWD-395
+2026-03-09 01:53:38,053 [API] [INFO] Evento recibido y publicado: Position - Placa LXA-211
+2026-03-09 01:53:38,056 [API] [INFO] Evento recibido y publicado: Position - Placa PMH-748
+2026-03-09 01:53:38,057 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:38,057 [API] [INFO] Evento recibido y publicado: Position - Placa FIE-920
+2026-03-09 01:53:38,058 [API] [INFO] Socket connected: <socket.socket fd=21, family=2, type=1, proto=6, laddr=('172.18.0.9', 42152), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:38,058 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b0c910>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b0c910> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:38,061 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b0c910> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,062 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b0c910> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,063 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b0c910> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,063 [API] [INFO] Created channel=1
+2026-03-09 01:53:38,067 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473477964160)
+2026-03-09 01:53:38,068 [API] [INFO] Evento recibido y publicado: Position - Placa MNU-157
+2026-03-09 01:53:38,073 [API] [INFO] Evento recibido y publicado: Position - Placa FWL-463
+2026-03-09 01:53:38,083 [API] [INFO] Evento recibido y publicado: Position - Placa BCP-775
+2026-03-09 01:53:38,136 [API] [INFO] Evento recibido y publicado: Position - Placa VVQ-500
+2026-03-09 01:53:38,156 [API] [INFO] Evento recibido y publicado: Position - Placa XXI-017
+2026-03-09 01:53:38,157 [API] [INFO] Evento recibido y publicado: Position - Placa DOP-245
+2026-03-09 01:53:38,159 [API] [INFO] Evento recibido y publicado: Position - Placa GHV-884
+2026-03-09 01:53:38,159 [API] [INFO] Evento recibido y publicado: Position - Placa UDJ-294
+2026-03-09 01:53:38,159 [API] [INFO] Evento recibido y publicado: Position - Placa XUQ-751
+2026-03-09 01:53:38,162 [API] [INFO] Evento recibido y publicado: Position - Placa NQK-425
+2026-03-09 01:53:38,171 [API] [INFO] Evento recibido y publicado: Position - Placa BJI-724
+2026-03-09 01:53:38,175 [API] [INFO] Evento recibido y publicado: Position - Placa SBY-674
+2026-03-09 01:53:38,187 [API] [INFO] Evento recibido y publicado: Position - Placa MYM-321
+2026-03-09 01:53:38,238 [API] [INFO] Evento recibido y publicado: Position - Placa CIE-060
+2026-03-09 01:53:38,259 [API] [INFO] Evento recibido y publicado: Position - Placa UYL-060
+2026-03-09 01:53:38,260 [API] [INFO] Evento recibido y publicado: Position - Placa OTO-953
+2026-03-09 01:53:38,263 [API] [INFO] Evento recibido y publicado: Position - Placa VKZ-454
+2026-03-09 01:53:38,263 [API] [INFO] Evento recibido y publicado: Position - Placa WPE-195
+2026-03-09 01:53:38,264 [API] [INFO] Evento recibido y publicado: Position - Placa ERR-883
+2026-03-09 01:53:38,267 [API] [INFO] Evento recibido y publicado: Position - Placa JPY-417
+2026-03-09 01:53:38,273 [API] [INFO] Evento recibido y publicado: Position - Placa AKM-404
+2026-03-09 01:53:38,277 [API] [INFO] Evento recibido y publicado: Position - Placa ODF-051
+2026-03-09 01:53:38,290 [API] [INFO] Evento recibido y publicado: Position - Placa YDA-321
+2026-03-09 01:53:38,340 [API] [INFO] Evento recibido y publicado: Position - Placa PWF-659
+2026-03-09 01:53:38,365 [API] [INFO] Evento recibido y publicado: Position - Placa OHQ-167
+2026-03-09 01:53:38,365 [API] [INFO] Evento recibido y publicado: Position - Placa TBL-217
+2026-03-09 01:53:38,369 [API] [INFO] Evento recibido y publicado: Position - Placa JJG-889
+2026-03-09 01:53:38,369 [API] [INFO] Evento recibido y publicado: Position - Placa XAD-084
+2026-03-09 01:53:38,370 [API] [INFO] Evento recibido y publicado: Position - Placa MPO-448
+2026-03-09 01:53:38,377 [API] [INFO] Evento recibido y publicado: Position - Placa YWP-241
+2026-03-09 01:53:38,378 [API] [INFO] Evento recibido y publicado: Position - Placa EAI-018
+2026-03-09 01:53:38,382 [API] [INFO] Evento recibido y publicado: Position - Placa VPC-446
+2026-03-09 01:53:38,392 [API] [INFO] Evento recibido y publicado: Position - Placa KDP-156
+2026-03-09 01:53:38,444 [API] [INFO] Evento recibido y publicado: Position - Placa UMD-690
+2026-03-09 01:53:38,473 [API] [INFO] Evento recibido y publicado: Position - Placa JAL-589
+2026-03-09 01:53:38,475 [API] [INFO] Evento recibido y publicado: Position - Placa KDZ-451
+2026-03-09 01:53:38,476 [API] [INFO] Evento recibido y publicado: Position - Placa TUV-901
+2026-03-09 01:53:38,479 [API] [INFO] Evento recibido y publicado: Position - Placa YYN-712
+2026-03-09 01:53:38,480 [API] [INFO] Evento recibido y publicado: Position - Placa HCY-446
+2026-03-09 01:53:38,482 [API] [INFO] Evento recibido y publicado: Position - Placa EHP-527
+2026-03-09 01:53:38,483 [API] [INFO] Evento recibido y publicado: Position - Placa NTF-663
+2026-03-09 01:53:38,486 [API] [INFO] Evento recibido y publicado: Position - Placa KZC-664
+2026-03-09 01:53:38,496 [API] [INFO] Evento recibido y publicado: Position - Placa VPV-110
+2026-03-09 01:53:38,551 [API] [INFO] Evento recibido y publicado: Position - Placa BRT-978
+2026-03-09 01:53:38,578 [API] [INFO] Evento recibido y publicado: Position - Placa IAG-384
+2026-03-09 01:53:38,580 [API] [INFO] Evento recibido y publicado: Position - Placa FBE-008
+2026-03-09 01:53:38,582 [API] [INFO] Evento recibido y publicado: Position - Placa HAT-601
+2026-03-09 01:53:38,583 [API] [INFO] Evento recibido y publicado: Position - Placa BWE-442
+2026-03-09 01:53:38,586 [API] [INFO] Evento recibido y publicado: Position - Placa THC-590
+2026-03-09 01:53:38,586 [API] [INFO] Evento recibido y publicado: Position - Placa PZB-298
+2026-03-09 01:53:38,587 [API] [INFO] Evento recibido y publicado: Position - Placa UPJ-759
+2026-03-09 01:53:38,589 [API] [INFO] Evento recibido y publicado: Position - Placa BQX-357
+2026-03-09 01:53:38,600 [API] [INFO] Evento recibido y publicado: Position - Placa MBU-519
+2026-03-09 01:53:38,657 [API] [INFO] Evento recibido y publicado: Position - Placa RXM-933
+2026-03-09 01:53:38,684 [API] [INFO] Evento recibido y publicado: Position - Placa GFL-779
+2026-03-09 01:53:38,684 [API] [INFO] Evento recibido y publicado: Position - Placa GYP-413
+2026-03-09 01:53:38,688 [API] [INFO] Evento recibido y publicado: Position - Placa WLK-923
+2026-03-09 01:53:38,690 [API] [INFO] Evento recibido y publicado: Position - Placa SAD-096
+2026-03-09 01:53:38,690 [API] [INFO] Evento recibido y publicado: Position - Placa OZC-167
+2026-03-09 01:53:38,690 [API] [INFO] Evento recibido y publicado: Position - Placa HXU-919
+2026-03-09 01:53:38,694 [API] [INFO] Evento recibido y publicado: Position - Placa LBS-370
+2026-03-09 01:53:38,695 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:38,695 [API] [INFO] Socket connected: <socket.socket fd=27, family=2, type=1, proto=6, laddr=('172.18.0.9', 42158), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:38,697 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6c71bd0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6c71bd0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:38,700 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6c71bd0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,700 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6c71bd0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,701 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6c71bd0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,702 [API] [INFO] Created channel=1
+2026-03-09 01:53:38,703 [API] [INFO] Evento recibido y publicado: Position - Placa HHF-763
+2026-03-09 01:53:38,704 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473477964160)
+2026-03-09 01:53:38,705 [API] [INFO] Evento recibido y publicado: Position - Placa SWU-072
+2026-03-09 01:53:38,820 [API] [INFO] Evento recibido y publicado: Position - Placa QMO-133
+2026-03-09 01:53:38,820 [API] [INFO] Evento recibido y publicado: Position - Placa VXB-996
+2026-03-09 01:53:38,834 [API] [INFO] Evento recibido y publicado: Position - Placa UOX-148
+2026-03-09 01:53:38,836 [API] [INFO] Evento recibido y publicado: Position - Placa ONF-247
+2026-03-09 01:53:38,840 [API] [INFO] Evento recibido y publicado: Position - Placa YRF-975
+2026-03-09 01:53:38,842 [API] [INFO] Evento recibido y publicado: Position - Placa QLI-449
+2026-03-09 01:53:38,846 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:38,846 [API] [INFO] Socket connected: <socket.socket fd=21, family=2, type=1, proto=6, laddr=('172.18.0.9', 42174), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:38,847 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b0cf50>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b0cf50> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:38,847 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:38,848 [API] [INFO] Socket connected: <socket.socket fd=30, family=2, type=1, proto=6, laddr=('172.18.0.6', 52154), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:38,849 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba26d090>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba26d090> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:38,851 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba26d090> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,852 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b0cf50> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,852 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b0cf50> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,852 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba26d090> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,853 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b0cf50> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,853 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba26d090> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,854 [API] [INFO] Created channel=1
+2026-03-09 01:53:38,854 [API] [INFO] Created channel=1
+2026-03-09 01:53:38,855 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473477964160)
+2026-03-09 01:53:38,856 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473804464512)
+2026-03-09 01:53:38,856 [API] [INFO] Evento recibido y publicado: Position - Placa MDK-151
+2026-03-09 01:53:38,857 [API] [INFO] Evento recibido y publicado: Position - Placa UDK-961
+2026-03-09 01:53:38,858 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:38,858 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:38,859 [API] [INFO] Socket connected: <socket.socket fd=33, family=2, type=1, proto=6, laddr=('172.18.0.9', 42188), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:38,859 [API] [INFO] Socket connected: <socket.socket fd=26, family=2, type=1, proto=6, laddr=('172.18.0.6', 52170), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:38,860 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b0da90>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b0da90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:38,860 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba3aac10>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba3aac10> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:38,863 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba3aac10> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,863 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b0da90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,863 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba3aac10> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,863 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b0da90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,864 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba3aac10> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,864 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b0da90> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:38,864 [API] [INFO] Created channel=1
+2026-03-09 01:53:38,864 [API] [INFO] Created channel=1
+2026-03-09 01:53:38,866 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473795092864)
+2026-03-09 01:53:38,866 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473468592512)
+2026-03-09 01:53:38,867 [API] [INFO] Evento recibido y publicado: Position - Placa YXX-753
+2026-03-09 01:53:38,867 [API] [INFO] Evento recibido y publicado: Position - Placa WXY-400
+2026-03-09 01:53:38,927 [API] [INFO] Evento recibido y publicado: Position - Placa GNV-610
+2026-03-09 01:53:38,931 [API] [INFO] Evento recibido y publicado: Position - Placa STP-503
+2026-03-09 01:53:38,940 [API] [INFO] Evento recibido y publicado: Position - Placa GCO-856
+2026-03-09 01:53:38,944 [API] [INFO] Evento recibido y publicado: Position - Placa YUF-280
+2026-03-09 01:53:38,947 [API] [INFO] Evento recibido y publicado: Position - Placa IGD-194
+2026-03-09 01:53:38,951 [API] [INFO] Evento recibido y publicado: Position - Placa WXS-759
+2026-03-09 01:53:38,960 [API] [INFO] Evento recibido y publicado: Position - Placa VJA-779
+2026-03-09 01:53:38,960 [API] [INFO] Evento recibido y publicado: Position - Placa YDM-661
+2026-03-09 01:53:38,970 [API] [INFO] Evento recibido y publicado: Position - Placa GPD-991
+2026-03-09 01:53:38,970 [API] [INFO] Evento recibido y publicado: Position - Placa BUH-876
+2026-03-09 01:53:39,031 [API] [INFO] Evento recibido y publicado: Position - Placa IVS-139
+2026-03-09 01:53:39,033 [API] [INFO] Evento recibido y publicado: Position - Placa VDE-391
+2026-03-09 01:53:39,045 [API] [INFO] Evento recibido y publicado: Position - Placa VRV-135
+2026-03-09 01:53:39,048 [API] [INFO] Evento recibido y publicado: Position - Placa VCK-112
+2026-03-09 01:53:39,050 [API] [INFO] Evento recibido y publicado: Position - Placa UFG-211
+2026-03-09 01:53:39,054 [API] [INFO] Evento recibido y publicado: Position - Placa MDU-487
+2026-03-09 01:53:39,064 [API] [INFO] Evento recibido y publicado: Position - Placa OHS-254
+2026-03-09 01:53:39,064 [API] [INFO] Evento recibido y publicado: Position - Placa SLM-469
+2026-03-09 01:53:39,073 [API] [INFO] Evento recibido y publicado: Position - Placa LKH-529
+2026-03-09 01:53:39,073 [API] [INFO] Evento recibido y publicado: Position - Placa MXD-169
+2026-03-09 01:53:39,133 [API] [INFO] Evento recibido y publicado: Position - Placa TSO-029
+2026-03-09 01:53:39,136 [API] [INFO] Evento recibido y publicado: Position - Placa HFE-164
+2026-03-09 01:53:39,149 [API] [INFO] Evento recibido y publicado: Position - Placa FNH-884
+2026-03-09 01:53:39,151 [API] [INFO] Evento recibido y publicado: Position - Placa MSY-556
+2026-03-09 01:53:39,153 [API] [INFO] Evento recibido y publicado: Position - Placa XTD-762
+2026-03-09 01:53:39,157 [API] [INFO] Evento recibido y publicado: Position - Placa AZC-428
+2026-03-09 01:53:39,167 [API] [INFO] Evento recibido y publicado: Position - Placa RRI-445
+2026-03-09 01:53:39,167 [API] [INFO] Evento recibido y publicado: Position - Placa COP-493
+2026-03-09 01:53:39,176 [API] [INFO] Evento recibido y publicado: Position - Placa NKA-084
+2026-03-09 01:53:39,176 [API] [INFO] Evento recibido y publicado: Position - Placa WLJ-379
+2026-03-09 01:53:39,239 [API] [INFO] Evento recibido y publicado: Position - Placa QOQ-937
+2026-03-09 01:53:39,240 [API] [INFO] Evento recibido y publicado: Position - Placa VPM-267
+2026-03-09 01:53:39,253 [API] [INFO] Evento recibido y publicado: Position - Placa XAO-872
+2026-03-09 01:53:39,254 [API] [INFO] Evento recibido y publicado: Position - Placa JXC-547
+2026-03-09 01:53:39,257 [API] [INFO] Evento recibido y publicado: Position - Placa DIY-340
+2026-03-09 01:53:39,260 [API] [INFO] Evento recibido y publicado: Position - Placa ENX-936
+2026-03-09 01:53:39,270 [API] [INFO] Evento recibido y publicado: Position - Placa VWL-802
+2026-03-09 01:53:39,270 [API] [INFO] Evento recibido y publicado: Position - Placa LWO-354
+2026-03-09 01:53:39,280 [API] [INFO] Evento recibido y publicado: Position - Placa MHT-901
+2026-03-09 01:53:39,280 [API] [INFO] Evento recibido y publicado: Position - Placa GNJ-246
+2026-03-09 01:53:39,346 [API] [INFO] Evento recibido y publicado: Position - Placa CRW-114
+2026-03-09 01:53:39,346 [API] [INFO] Evento recibido y publicado: Position - Placa CNO-445
+2026-03-09 01:53:39,359 [API] [INFO] Evento recibido y publicado: Position - Placa DKQ-621
+2026-03-09 01:53:39,359 [API] [INFO] Evento recibido y publicado: Position - Placa YFJ-595
+2026-03-09 01:53:39,360 [API] [INFO] Evento recibido y publicado: Position - Placa CEG-364
+2026-03-09 01:53:39,364 [API] [INFO] Evento recibido y publicado: Position - Placa GZT-809
+2026-03-09 01:53:39,374 [API] [INFO] Evento recibido y publicado: Position - Placa LJA-340
+2026-03-09 01:53:39,377 [API] [INFO] Evento recibido y publicado: Position - Placa FIN-453
+2026-03-09 01:53:39,383 [API] [INFO] Evento recibido y publicado: Position - Placa NSH-287
+2026-03-09 01:53:39,386 [API] [INFO] Evento recibido y publicado: Position - Placa VJB-880
+2026-03-09 01:53:39,459 [API] [INFO] Evento recibido y publicado: Position - Placa FPW-715
+2026-03-09 01:53:39,459 [API] [INFO] Evento recibido y publicado: Position - Placa YAI-080
+2026-03-09 01:53:39,464 [API] [INFO] Evento recibido y publicado: Position - Placa YZV-785
+2026-03-09 01:53:39,464 [API] [INFO] Evento recibido y publicado: Position - Placa PYY-497
+2026-03-09 01:53:39,465 [API] [INFO] Evento recibido y publicado: Position - Placa VQX-243
+2026-03-09 01:53:39,468 [API] [INFO] Evento recibido y publicado: Position - Placa AZH-813
+2026-03-09 01:53:39,478 [API] [INFO] Evento recibido y publicado: Position - Placa YQF-395
+2026-03-09 01:53:39,484 [API] [INFO] Evento recibido y publicado: Position - Placa LTM-885
+2026-03-09 01:53:39,487 [API] [INFO] Evento recibido y publicado: Position - Placa BML-345
+2026-03-09 01:53:39,489 [API] [INFO] Evento recibido y publicado: Position - Placa ZER-111
+2026-03-09 01:53:39,565 [API] [INFO] Evento recibido y publicado: Position - Placa EGU-389
+2026-03-09 01:53:39,566 [API] [INFO] Evento recibido y publicado: Position - Placa WCY-868
+2026-03-09 01:53:39,569 [API] [INFO] Evento recibido y publicado: Position - Placa LJX-148
+2026-03-09 01:53:39,571 [API] [INFO] Evento recibido y publicado: Position - Placa OZN-052
+2026-03-09 01:53:39,571 [API] [INFO] Evento recibido y publicado: Position - Placa VAW-776
+2026-03-09 01:53:39,573 [API] [INFO] Evento recibido y publicado: Position - Placa SKK-238
+2026-03-09 01:53:39,583 [API] [INFO] Evento recibido y publicado: Position - Placa GQN-836
+2026-03-09 01:53:39,589 [API] [INFO] Evento recibido y publicado: Position - Placa QDZ-657
+2026-03-09 01:53:39,590 [API] [INFO] Evento recibido y publicado: Position - Placa AUL-565
+2026-03-09 01:53:39,592 [API] [INFO] Evento recibido y publicado: Position - Placa KII-503
+2026-03-09 01:53:39,671 [API] [INFO] Evento recibido y publicado: Position - Placa RNY-075
+2026-03-09 01:53:39,671 [API] [INFO] Evento recibido y publicado: Position - Placa VUH-339
+2026-03-09 01:53:39,673 [API] [INFO] Evento recibido y publicado: Position - Placa VMP-009
+2026-03-09 01:53:39,676 [API] [INFO] Evento recibido y publicado: Position - Placa BTZ-229
+2026-03-09 01:53:39,676 [API] [INFO] Evento recibido y publicado: Position - Placa CHX-070
+2026-03-09 01:53:39,677 [API] [INFO] Evento recibido y publicado: Position - Placa ZAC-131
+2026-03-09 01:53:39,689 [API] [INFO] Evento recibido y publicado: Position - Placa EKB-206
+2026-03-09 01:53:39,692 [API] [INFO] Evento recibido y publicado: Position - Placa QBH-451
+2026-03-09 01:53:39,695 [API] [INFO] Evento recibido y publicado: Position - Placa CAN-040
+2026-03-09 01:53:39,696 [API] [INFO] Evento recibido y publicado: Position - Placa VWY-521
+2026-03-09 01:53:39,776 [API] [INFO] Evento recibido y publicado: Position - Placa VBS-951
+2026-03-09 01:53:39,776 [API] [INFO] Evento recibido y publicado: Position - Placa YPR-003
+2026-03-09 01:53:39,776 [API] [INFO] Evento recibido y publicado: Position - Placa MNL-949
+2026-03-09 01:53:39,779 [API] [INFO] Evento recibido y publicado: Position - Placa JYX-144
+2026-03-09 01:53:39,781 [API] [INFO] Evento recibido y publicado: Position - Placa XFT-207
+2026-03-09 01:53:39,790 [API] [INFO] Evento recibido y publicado: Position - Placa PDI-201
+2026-03-09 01:53:39,797 [API] [INFO] Evento recibido y publicado: Position - Placa HLG-181
+2026-03-09 01:53:39,800 [API] [INFO] Evento recibido y publicado: Position - Placa QMJ-426
+2026-03-09 01:53:39,800 [API] [INFO] Evento recibido y publicado: Position - Placa WJB-330
+2026-03-09 01:53:39,802 [API] [INFO] Evento recibido y publicado: Position - Placa KGR-365
+2026-03-09 01:53:39,879 [API] [INFO] Evento recibido y publicado: Position - Placa JSV-600
+2026-03-09 01:53:39,879 [API] [INFO] Evento recibido y publicado: Position - Placa EMY-287
+2026-03-09 01:53:39,881 [API] [INFO] Evento recibido y publicado: Position - Placa GJY-931
+2026-03-09 01:53:39,882 [API] [INFO] Evento recibido y publicado: Position - Placa JUQ-767
+2026-03-09 01:53:39,884 [API] [INFO] Evento recibido y publicado: Position - Placa KZH-753
+2026-03-09 01:53:39,894 [API] [INFO] Evento recibido y publicado: Position - Placa DWV-846
+2026-03-09 01:53:39,901 [API] [INFO] Evento recibido y publicado: Position - Placa KIP-238
+2026-03-09 01:53:39,903 [API] [INFO] Evento recibido y publicado: Position - Placa QFZ-536
+2026-03-09 01:53:39,905 [API] [INFO] Evento recibido y publicado: Position - Placa CPZ-011
+2026-03-09 01:53:39,908 [API] [INFO] Evento recibido y publicado: Position - Placa SFS-991
+2026-03-09 01:53:39,983 [API] [INFO] Evento recibido y publicado: Position - Placa IXW-522
+2026-03-09 01:53:39,983 [API] [INFO] Evento recibido y publicado: Position - Placa LFP-486
+2026-03-09 01:53:39,984 [API] [INFO] Evento recibido y publicado: Position - Placa VLG-231
+2026-03-09 01:53:39,986 [API] [INFO] Evento recibido y publicado: Position - Placa KZM-837
+2026-03-09 01:53:39,986 [API] [INFO] Evento recibido y publicado: Position - Placa PRF-990
+2026-03-09 01:53:39,997 [API] [INFO] Evento recibido y publicado: Position - Placa SIL-125
+2026-03-09 01:53:40,004 [API] [INFO] Evento recibido y publicado: Position - Placa QJK-641
+2026-03-09 01:53:40,006 [API] [INFO] Evento recibido y publicado: Position - Placa KGA-931
+2026-03-09 01:53:40,007 [API] [INFO] Evento recibido y publicado: Position - Placa MML-850
+2026-03-09 01:53:40,011 [API] [INFO] Evento recibido y publicado: Position - Placa MFS-925
+2026-03-09 01:53:40,086 [API] [INFO] Evento recibido y publicado: Position - Placa GCN-439
+2026-03-09 01:53:40,086 [API] [INFO] Evento recibido y publicado: Position - Placa EBR-580
+2026-03-09 01:53:40,087 [API] [INFO] Evento recibido y publicado: Position - Placa EWO-922
+2026-03-09 01:53:40,088 [API] [INFO] Evento recibido y publicado: Position - Placa ULZ-537
+2026-03-09 01:53:40,089 [API] [INFO] Evento recibido y publicado: Position - Placa DSV-222
+2026-03-09 01:53:40,100 [API] [INFO] Evento recibido y publicado: Position - Placa IVI-735
+2026-03-09 01:53:40,107 [API] [INFO] Evento recibido y publicado: Position - Placa ESR-266
+2026-03-09 01:53:40,108 [API] [INFO] Evento recibido y publicado: Position - Placa PIV-502
+2026-03-09 01:53:40,111 [API] [INFO] Evento recibido y publicado: Position - Placa ZBT-710
+2026-03-09 01:53:40,114 [API] [INFO] Evento recibido y publicado: Position - Placa GZF-222
+2026-03-09 01:53:40,190 [API] [INFO] Evento recibido y publicado: Position - Placa YTF-963
+2026-03-09 01:53:40,190 [API] [INFO] Evento recibido y publicado: Position - Placa TKC-442
+2026-03-09 01:53:40,190 [API] [INFO] Evento recibido y publicado: Position - Placa TUD-716
+2026-03-09 01:53:40,192 [API] [INFO] Evento recibido y publicado: Position - Placa TCX-120
+2026-03-09 01:53:40,192 [API] [INFO] Evento recibido y publicado: Position - Placa PET-310
+2026-03-09 01:53:40,202 [API] [INFO] Evento recibido y publicado: Position - Placa YAX-850
+2026-03-09 01:53:40,211 [API] [INFO] Evento recibido y publicado: Position - Placa IHI-629
+2026-03-09 01:53:40,211 [API] [INFO] Evento recibido y publicado: Position - Placa NUD-947
+2026-03-09 01:53:40,214 [API] [INFO] Evento recibido y publicado: Position - Placa GXO-100
+2026-03-09 01:53:40,217 [API] [INFO] Evento recibido y publicado: Position - Placa JBW-965
+2026-03-09 01:53:40,293 [API] [INFO] Evento recibido y publicado: Position - Placa SNR-645
+2026-03-09 01:53:40,293 [API] [INFO] Evento recibido y publicado: Position - Placa VOR-225
+2026-03-09 01:53:40,294 [API] [INFO] Evento recibido y publicado: Position - Placa ZFU-085
+2026-03-09 01:53:40,295 [API] [INFO] Evento recibido y publicado: Position - Placa IWQ-602
+2026-03-09 01:53:40,295 [API] [INFO] Evento recibido y publicado: Position - Placa LBD-815
+2026-03-09 01:53:40,305 [API] [INFO] Evento recibido y publicado: Position - Placa EPG-341
+2026-03-09 01:53:40,316 [API] [INFO] Evento recibido y publicado: Position - Placa RAA-642
+2026-03-09 01:53:40,316 [API] [INFO] Evento recibido y publicado: Position - Placa LYI-878
+2026-03-09 01:53:40,316 [API] [INFO] Evento recibido y publicado: Position - Placa OIE-831
+2026-03-09 01:53:40,319 [API] [INFO] Evento recibido y publicado: Position - Placa BHE-694
+2026-03-09 01:53:40,401 [API] [INFO] Evento recibido y publicado: Position - Placa LJT-451
+2026-03-09 01:53:40,402 [API] [INFO] Evento recibido y publicado: Position - Placa UQA-048
+2026-03-09 01:53:40,402 [API] [INFO] Evento recibido y publicado: Position - Placa SLC-717
+2026-03-09 01:53:40,406 [API] [INFO] Evento recibido y publicado: Position - Placa ULT-590
+2026-03-09 01:53:40,409 [API] [INFO] Evento recibido y publicado: Position - Placa RCA-286
+2026-03-09 01:53:40,409 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:40,410 [API] [INFO] Socket connected: <socket.socket fd=21, family=2, type=1, proto=6, laddr=('172.18.0.4', 46104), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:40,411 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b11c410>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b11c410> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:40,415 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b11c410> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:40,416 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b11c410> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:40,416 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b11c410> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:40,417 [API] [INFO] Created channel=1
+2026-03-09 01:53:40,418 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473282994560)
+2026-03-09 01:53:40,419 [API] [INFO] Evento recibido y publicado: Position - Placa WSA-193
+2026-03-09 01:53:40,419 [API] [INFO] Evento recibido y publicado: Position - Placa VRX-368
+2026-03-09 01:53:40,421 [API] [INFO] Evento recibido y publicado: Position - Placa NAO-972
+2026-03-09 01:53:40,422 [API] [INFO] Evento recibido y publicado: Position - Placa LME-145
+2026-03-09 01:53:40,422 [API] [INFO] Evento recibido y publicado: Position - Placa VHZ-101
+2026-03-09 01:53:40,507 [API] [INFO] Evento recibido y publicado: Position - Placa JHW-852
+2026-03-09 01:53:40,507 [API] [INFO] Evento recibido y publicado: Position - Placa QNK-029
+2026-03-09 01:53:40,508 [API] [INFO] Evento recibido y publicado: Position - Placa XTZ-773
+2026-03-09 01:53:40,511 [API] [INFO] Evento recibido y publicado: Position - Placa YIS-691
+2026-03-09 01:53:40,513 [API] [INFO] Evento recibido y publicado: Position - Placa UBC-668
+2026-03-09 01:53:40,523 [API] [INFO] Evento recibido y publicado: Position - Placa UAO-808
+2026-03-09 01:53:40,523 [API] [INFO] Evento recibido y publicado: Position - Placa BZP-325
+2026-03-09 01:53:40,526 [API] [INFO] Evento recibido y publicado: Position - Placa IQO-921
+2026-03-09 01:53:40,526 [API] [INFO] Evento recibido y publicado: Position - Placa ANZ-545
+2026-03-09 01:53:40,526 [API] [INFO] Evento recibido y publicado: Position - Placa MRX-221
+2026-03-09 01:53:40,612 [API] [INFO] Evento recibido y publicado: Position - Placa SMS-794
+2026-03-09 01:53:40,612 [API] [INFO] Evento recibido y publicado: Position - Placa HLK-721
+2026-03-09 01:53:40,612 [API] [INFO] Evento recibido y publicado: Position - Placa CQM-317
+2026-03-09 01:53:40,615 [API] [INFO] Evento recibido y publicado: Position - Placa CKL-011
+2026-03-09 01:53:40,616 [API] [INFO] Evento recibido y publicado: Position - Placa BUI-941
+2026-03-09 01:53:40,626 [API] [INFO] Evento recibido y publicado: Position - Placa ZAX-247
+2026-03-09 01:53:40,626 [API] [INFO] Evento recibido y publicado: Position - Placa FNP-573
+2026-03-09 01:53:40,631 [API] [INFO] Evento recibido y publicado: Position - Placa NBH-836
+2026-03-09 01:53:40,631 [API] [INFO] Evento recibido y publicado: Position - Placa SNX-696
+2026-03-09 01:53:40,632 [API] [INFO] Evento recibido y publicado: Position - Placa UIT-454
+2026-03-09 01:53:40,717 [API] [INFO] Evento recibido y publicado: Position - Placa APT-850
+2026-03-09 01:53:40,718 [API] [INFO] Evento recibido y publicado: Position - Placa APZ-798
+2026-03-09 01:53:40,718 [API] [INFO] Evento recibido y publicado: Position - Placa XBL-709
+2026-03-09 01:53:40,719 [API] [INFO] Evento recibido y publicado: Position - Placa JPX-155
+2026-03-09 01:53:40,721 [API] [INFO] Evento recibido y publicado: Position - Placa UDW-464
+2026-03-09 01:53:40,731 [API] [INFO] Evento recibido y publicado: Position - Placa PVA-275
+2026-03-09 01:53:40,732 [API] [INFO] Evento recibido y publicado: Position - Placa LRN-221
+2026-03-09 01:53:40,735 [API] [INFO] Evento recibido y publicado: Position - Placa CHT-761
+2026-03-09 01:53:40,735 [API] [INFO] Evento recibido y publicado: Position - Placa GBO-790
+2026-03-09 01:53:40,736 [API] [INFO] Evento recibido y publicado: Position - Placa ALQ-403
+2026-03-09 01:53:40,823 [API] [INFO] Evento recibido y publicado: Position - Placa CDF-009
+2026-03-09 01:53:40,823 [API] [INFO] Evento recibido y publicado: Position - Placa TCX-802
+2026-03-09 01:53:40,824 [API] [INFO] Evento recibido y publicado: Position - Placa DRO-696
+2026-03-09 01:53:40,826 [API] [INFO] Evento recibido y publicado: Position - Placa ZZK-744
+2026-03-09 01:53:40,827 [API] [INFO] Evento recibido y publicado: Position - Placa SUS-499
+2026-03-09 01:53:40,833 [API] [INFO] Evento recibido y publicado: Position - Placa HAB-783
+2026-03-09 01:53:40,835 [API] [INFO] Evento recibido y publicado: Position - Placa MPF-954
+2026-03-09 01:53:40,838 [API] [INFO] Evento recibido y publicado: Position - Placa QER-299
+2026-03-09 01:53:40,838 [API] [INFO] Evento recibido y publicado: Position - Placa XMG-459
+2026-03-09 01:53:40,839 [API] [INFO] Evento recibido y publicado: Position - Placa KNV-848
+2026-03-09 01:53:40,928 [API] [INFO] Evento recibido y publicado: Position - Placa BHW-731
+2026-03-09 01:53:40,928 [API] [INFO] Evento recibido y publicado: Position - Placa IIH-597
+2026-03-09 01:53:40,931 [API] [INFO] Evento recibido y publicado: Position - Placa JVJ-708
+2026-03-09 01:53:40,931 [API] [INFO] Evento recibido y publicado: Position - Placa WED-493
+2026-03-09 01:53:40,935 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:40,936 [API] [INFO] Socket connected: <socket.socket fd=29, family=2, type=1, proto=6, laddr=('172.18.0.6', 42718), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:40,937 [API] [INFO] Evento recibido y publicado: Position - Placa JWQ-650
+2026-03-09 01:53:40,938 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba26c7d0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba26c7d0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:40,938 [API] [INFO] Evento recibido y publicado: Position - Placa CGE-768
+2026-03-09 01:53:40,941 [API] [INFO] Evento recibido y publicado: Position - Placa KPP-802
+2026-03-09 01:53:40,941 [API] [INFO] Evento recibido y publicado: Position - Placa FOA-846
+2026-03-09 01:53:40,943 [API] [INFO] Evento recibido y publicado: Position - Placa CPL-148
+2026-03-09 01:53:40,944 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba26c7d0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:40,945 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba26c7d0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:40,946 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba26c7d0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:40,946 [API] [INFO] Created channel=1
+2026-03-09 01:53:40,948 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473804464512)
+2026-03-09 01:53:40,948 [API] [INFO] Evento recibido y publicado: Position - Placa GKX-516
+2026-03-09 01:53:41,034 [API] [INFO] Evento recibido y publicado: Position - Placa QIY-657
+2026-03-09 01:53:41,034 [API] [INFO] Evento recibido y publicado: Position - Placa RZU-320
+2026-03-09 01:53:41,035 [API] [INFO] Evento recibido y publicado: Position - Placa EDZ-457
+2026-03-09 01:53:41,036 [API] [INFO] Evento recibido y publicado: Position - Placa RVX-308
+2026-03-09 01:53:41,039 [API] [INFO] Evento recibido y publicado: Position - Placa NLA-466
+2026-03-09 01:53:41,041 [API] [INFO] Evento recibido y publicado: Position - Placa IPI-749
+2026-03-09 01:53:41,044 [API] [INFO] Evento recibido y publicado: Position - Placa LDX-533
+2026-03-09 01:53:41,046 [API] [INFO] Evento recibido y publicado: Position - Placa DOX-241
+2026-03-09 01:53:41,046 [API] [INFO] Evento recibido y publicado: Position - Placa TWK-502
+2026-03-09 01:53:41,051 [API] [INFO] Evento recibido y publicado: Position - Placa JYU-416
+2026-03-09 01:53:41,140 [API] [INFO] Evento recibido y publicado: Position - Placa CXQ-738
+2026-03-09 01:53:41,140 [API] [INFO] Evento recibido y publicado: Position - Placa EZA-357
+2026-03-09 01:53:41,141 [API] [INFO] Evento recibido y publicado: Position - Placa AGP-677
+2026-03-09 01:53:41,141 [API] [INFO] Evento recibido y publicado: Position - Placa ARO-982
+2026-03-09 01:53:41,146 [API] [INFO] Evento recibido y publicado: Position - Placa DHU-409
+2026-03-09 01:53:41,147 [API] [INFO] Evento recibido y publicado: Position - Placa CFB-675
+2026-03-09 01:53:41,149 [API] [INFO] Evento recibido y publicado: Position - Placa DHE-470
+2026-03-09 01:53:41,150 [API] [INFO] Evento recibido y publicado: Position - Placa KNH-515
+2026-03-09 01:53:41,150 [API] [INFO] Evento recibido y publicado: Position - Placa KAU-113
+2026-03-09 01:53:41,154 [API] [INFO] Evento recibido y publicado: Position - Placa REN-208
+2026-03-09 01:53:41,250 [API] [INFO] Evento recibido y publicado: Position - Placa VWS-288
+2026-03-09 01:53:41,252 [API] [INFO] Evento recibido y publicado: Position - Placa DXM-166
+2026-03-09 01:53:41,254 [API] [INFO] Evento recibido y publicado: Position - Placa YNF-733
+2026-03-09 01:53:41,250 [API] [INFO] Evento recibido y publicado: Position - Placa TCM-416
+2026-03-09 01:53:41,250 [API] [INFO] Evento recibido y publicado: Position - Placa KJW-336
+2026-03-09 01:53:41,251 [API] [INFO] Evento recibido y publicado: Position - Placa LDP-134
+2026-03-09 01:53:41,260 [API] [INFO] Evento recibido y publicado: Position - Placa JBX-864
+2026-03-09 01:53:41,260 [API] [INFO] Evento recibido y publicado: Position - Placa TWS-097
+2026-03-09 01:53:41,262 [API] [INFO] Evento recibido y publicado: Position - Placa WSU-740
+2026-03-09 01:53:41,272 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:41,273 [API] [INFO] Socket connected: <socket.socket fd=29, family=2, type=1, proto=6, laddr=('172.18.0.6', 42732), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:41,275 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba270550>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba270550> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:41,280 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba270550> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:41,281 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba270550> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:41,281 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffba270550> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:41,284 [API] [INFO] Created channel=1
+2026-03-09 01:53:41,288 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473804464512)
+2026-03-09 01:53:41,288 [API] [INFO] Evento recibido y publicado: Position - Placa VHH-035
+2026-03-09 01:53:41,360 [API] [INFO] Evento recibido y publicado: Position - Placa KHM-500
+2026-03-09 01:53:41,360 [API] [INFO] Evento recibido y publicado: Position - Placa QQE-906
+2026-03-09 01:53:41,362 [API] [INFO] Evento recibido y publicado: Position - Placa MBB-192
+2026-03-09 01:53:41,362 [API] [INFO] Evento recibido y publicado: Position - Placa YGI-945
+2026-03-09 01:53:41,362 [API] [INFO] Evento recibido y publicado: Position - Placa AXV-963
+2026-03-09 01:53:41,364 [API] [INFO] Evento recibido y publicado: Position - Placa NWI-004
+2026-03-09 01:53:41,366 [API] [INFO] Evento recibido y publicado: Position - Placa LMR-306
+2026-03-09 01:53:41,368 [API] [INFO] Evento recibido y publicado: Position - Placa AUQ-388
+2026-03-09 01:53:41,369 [API] [INFO] Evento recibido y publicado: Position - Placa JRG-010
+2026-03-09 01:53:41,392 [API] [INFO] Evento recibido y publicado: Position - Placa AXP-005
+2026-03-09 01:53:41,468 [API] [INFO] Evento recibido y publicado: Position - Placa PAW-083
+2026-03-09 01:53:41,468 [API] [INFO] Evento recibido y publicado: Position - Placa OTG-221
+2026-03-09 01:53:41,469 [API] [INFO] Evento recibido y publicado: Position - Placa YME-702
+2026-03-09 01:53:41,471 [API] [INFO] Evento recibido y publicado: Position - Placa FZC-039
+2026-03-09 01:53:41,471 [API] [INFO] Evento recibido y publicado: Position - Placa GUD-426
+2026-03-09 01:53:41,476 [API] [INFO] Evento recibido y publicado: Position - Placa GVB-256
+2026-03-09 01:53:41,479 [API] [INFO] Evento recibido y publicado: Position - Placa INX-666
+2026-03-09 01:53:41,480 [API] [INFO] Evento recibido y publicado: Position - Placa WNV-206
+2026-03-09 01:53:41,482 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:41,483 [API] [INFO] Socket connected: <socket.socket fd=27, family=2, type=1, proto=6, laddr=('172.18.0.4', 46120), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:41,486 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b120910>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b120910> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:41,491 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b120910> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:41,492 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b120910> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:41,492 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b120910> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:41,495 [API] [INFO] Created channel=1
+2026-03-09 01:53:41,496 [API] [INFO] Evento recibido y publicado: Position - Placa BZC-222
+2026-03-09 01:53:41,498 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473282994560)
+2026-03-09 01:53:41,499 [API] [INFO] Evento recibido y publicado: Position - Placa VKR-470
+2026-03-09 01:53:41,577 [API] [INFO] Evento recibido y publicado: Position - Placa AOM-887
+2026-03-09 01:53:41,577 [API] [INFO] Evento recibido y publicado: Position - Placa HEN-678
+2026-03-09 01:53:41,578 [API] [INFO] Evento recibido y publicado: Position - Placa KNA-146
+2026-03-09 01:53:41,578 [API] [INFO] Evento recibido y publicado: Position - Placa MMQ-839
+2026-03-09 01:53:41,582 [API] [INFO] Evento recibido y publicado: Position - Placa JWI-426
+2026-03-09 01:53:41,582 [API] [INFO] Evento recibido y publicado: Position - Placa JHJ-964
+2026-03-09 01:53:41,584 [API] [INFO] Evento recibido y publicado: Position - Placa DTN-629
+2026-03-09 01:53:41,585 [API] [INFO] Evento recibido y publicado: Position - Placa FXV-740
+2026-03-09 01:53:41,599 [API] [INFO] Evento recibido y publicado: Position - Placa SKR-747
+2026-03-09 01:53:41,602 [API] [INFO] Evento recibido y publicado: Position - Placa WVC-404
+2026-03-09 01:53:41,685 [API] [INFO] Evento recibido y publicado: Position - Placa GQG-263
+2026-03-09 01:53:41,685 [API] [INFO] Evento recibido y publicado: Position - Placa IBG-441
+2026-03-09 01:53:41,687 [API] [INFO] Evento recibido y publicado: Position - Placa TDL-518
+2026-03-09 01:53:41,687 [API] [INFO] Evento recibido y publicado: Position - Placa OMU-160
+2026-03-09 01:53:41,688 [API] [INFO] Evento recibido y publicado: Position - Placa NQQ-100
+2026-03-09 01:53:41,690 [API] [INFO] Evento recibido y publicado: Position - Placa ANI-370
+2026-03-09 01:53:41,691 [API] [INFO] Evento recibido y publicado: Position - Placa UOH-716
+2026-03-09 01:53:41,692 [API] [INFO] Evento recibido y publicado: Position - Placa KEN-349
+2026-03-09 01:53:41,703 [API] [INFO] Evento recibido y publicado: Position - Placa DEI-998
+2026-03-09 01:53:41,706 [API] [INFO] Evento recibido y publicado: Position - Placa LAT-929
+2026-03-09 01:53:41,794 [API] [INFO] Evento recibido y publicado: Position - Placa MTB-939
+2026-03-09 01:53:41,794 [API] [INFO] Evento recibido y publicado: Position - Placa JXL-580
+2026-03-09 01:53:41,797 [API] [INFO] Evento recibido y publicado: Position - Placa IYO-039
+2026-03-09 01:53:41,797 [API] [INFO] Evento recibido y publicado: Position - Placa CPZ-289
+2026-03-09 01:53:41,798 [API] [INFO] Evento recibido y publicado: Position - Placa TCB-526
+2026-03-09 01:53:41,799 [API] [INFO] Evento recibido y publicado: Position - Placa XHD-478
+2026-03-09 01:53:41,801 [API] [INFO] Evento recibido y publicado: Position - Placa BFF-156
+2026-03-09 01:53:41,803 [API] [INFO] Evento recibido y publicado: Position - Placa TJC-612
+2026-03-09 01:53:41,806 [API] [INFO] Evento recibido y publicado: Position - Placa UUY-935
+2026-03-09 01:53:41,809 [API] [INFO] Evento recibido y publicado: Position - Placa KSZ-658
+2026-03-09 01:53:41,899 [API] [INFO] Evento recibido y publicado: Position - Placa CFZ-410
+2026-03-09 01:53:41,899 [API] [INFO] Evento recibido y publicado: Position - Placa GXJ-548
+2026-03-09 01:53:41,900 [API] [INFO] Evento recibido y publicado: Position - Placa HLD-067
+2026-03-09 01:53:41,904 [API] [INFO] Evento recibido y publicado: Position - Placa YXO-985
+2026-03-09 01:53:41,904 [API] [INFO] Evento recibido y publicado: Position - Placa JMG-012
+2026-03-09 01:53:41,904 [API] [INFO] Evento recibido y publicado: Position - Placa AVB-542
+2026-03-09 01:53:41,905 [API] [INFO] Evento recibido y publicado: Position - Placa YVO-881
+2026-03-09 01:53:41,909 [API] [INFO] Evento recibido y publicado: Position - Placa MNG-111
+2026-03-09 01:53:41,909 [API] [INFO] Evento recibido y publicado: Position - Placa BQO-436
+2026-03-09 01:53:41,913 [API] [INFO] Evento recibido y publicado: Position - Placa NAL-767
+2026-03-09 01:53:42,004 [API] [INFO] Evento recibido y publicado: Position - Placa ANG-624
+2026-03-09 01:53:42,004 [API] [INFO] Evento recibido y publicado: Position - Placa LZD-956
+2026-03-09 01:53:42,005 [API] [INFO] Evento recibido y publicado: Position - Placa VPN-460
+2026-03-09 01:53:42,013 [API] [INFO] Evento recibido y publicado: Position - Placa MBZ-305
+2026-03-09 01:53:42,014 [API] [INFO] Evento recibido y publicado: Position - Placa DJQ-091
+2026-03-09 01:53:42,017 [API] [INFO] Evento recibido y publicado: Position - Placa EDW-467
+2026-03-09 01:53:42,020 [API] [INFO] Evento recibido y publicado: Position - Placa FDG-220
+2026-03-09 01:53:42,022 [API] [INFO] Evento recibido y publicado: Position - Placa IYU-828
+2026-03-09 01:53:42,025 [API] [INFO] Evento recibido y publicado: Position - Placa UHS-229
+2026-03-09 01:53:42,036 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:42,037 [API] [INFO] Socket connected: <socket.socket fd=29, family=2, type=1, proto=6, laddr=('172.18.0.9', 53504), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:42,039 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b10410>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b10410> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:42,042 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b10410> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:42,043 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b10410> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:42,044 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffffa6b10410> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:42,044 [API] [INFO] Created channel=1
+2026-03-09 01:53:42,046 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473477964160)
+2026-03-09 01:53:42,047 [API] [INFO] Evento recibido y publicado: Position - Placa RLJ-952
+2026-03-09 01:53:42,108 [API] [INFO] Evento recibido y publicado: Position - Placa FKH-790
+2026-03-09 01:53:42,108 [API] [INFO] Evento recibido y publicado: Position - Placa FQY-901
+2026-03-09 01:53:42,112 [API] [INFO] Evento recibido y publicado: Position - Placa GMM-823
+2026-03-09 01:53:42,126 [API] [INFO] Evento recibido y publicado: Position - Placa OUC-920
+2026-03-09 01:53:42,128 [API] [INFO] Evento recibido y publicado: Position - Placa JGO-638
+2026-03-09 01:53:42,131 [API] [INFO] Evento recibido y publicado: Position - Placa PPE-576
+2026-03-09 01:53:42,131 [API] [INFO] Evento recibido y publicado: Position - Placa KWR-466
+2026-03-09 01:53:42,134 [API] [INFO] Evento recibido y publicado: Position - Placa VXF-695
+2026-03-09 01:53:42,136 [API] [INFO] Evento recibido y publicado: Position - Placa BPH-001
+2026-03-09 01:53:42,150 [API] [INFO] Evento recibido y publicado: Position - Placa GYQ-113
+2026-03-09 01:53:42,214 [API] [INFO] Evento recibido y publicado: Position - Placa HSO-253
+2026-03-09 01:53:42,214 [API] [INFO] Evento recibido y publicado: Position - Placa YDA-079
+2026-03-09 01:53:42,214 [API] [INFO] Evento recibido y publicado: Position - Placa VSO-341
+2026-03-09 01:53:42,228 [API] [INFO] Evento recibido y publicado: Position - Placa UQQ-434
+2026-03-09 01:53:42,231 [API] [INFO] Evento recibido y publicado: Position - Placa TMI-781
+2026-03-09 01:53:42,234 [API] [INFO] Evento recibido y publicado: Position - Placa IUZ-610
+2026-03-09 01:53:42,235 [API] [INFO] Evento recibido y publicado: Position - Placa RKN-736
+2026-03-09 01:53:42,238 [API] [INFO] Evento recibido y publicado: Position - Placa KZO-413
+2026-03-09 01:53:42,238 [API] [INFO] Evento recibido y publicado: Position - Placa OIV-431
+2026-03-09 01:53:42,253 [API] [INFO] Evento recibido y publicado: Position - Placa SGV-629
+2026-03-09 01:53:42,326 [API] [INFO] Evento recibido y publicado: Position - Placa OST-329
+2026-03-09 01:53:42,326 [API] [INFO] Evento recibido y publicado: Position - Placa ASA-795
+2026-03-09 01:53:42,327 [API] [INFO] Evento recibido y publicado: Position - Placa OMB-074
+2026-03-09 01:53:42,351 [API] [INFO] Evento recibido y publicado: Position - Placa WIW-672
+2026-03-09 01:53:42,351 [API] [INFO] Evento recibido y publicado: Position - Placa LMQ-730
+2026-03-09 01:53:42,354 [API] [INFO] Evento recibido y publicado: Position - Placa OGR-857
+2026-03-09 01:53:42,363 [API] [INFO] Evento recibido y publicado: Position - Placa FGD-881
+2026-03-09 01:53:42,364 [API] [INFO] Evento recibido y publicado: Position - Placa WIH-911
+2026-03-09 01:53:42,362 [API] [INFO] Evento recibido y publicado: Position - Placa LFW-278
+2026-03-09 01:53:42,365 [API] [INFO] Evento recibido y publicado: Position - Placa IVG-436
+2026-03-09 01:53:42,433 [API] [INFO] Evento recibido y publicado: Position - Placa DLK-291
+2026-03-09 01:53:42,447 [API] [INFO] Evento recibido y publicado: Position - Placa JWW-488
+2026-03-09 01:53:42,452 [API] [INFO] Evento recibido y publicado: Position - Placa YBK-422
+2026-03-09 01:53:42,473 [API] [INFO] Evento recibido y publicado: Position - Placa CKD-006
+2026-03-09 01:53:42,475 [API] [INFO] Evento recibido y publicado: Position - Placa URX-275
+2026-03-09 01:53:42,475 [API] [INFO] Evento recibido y publicado: Position - Placa TPQ-374
+2026-03-09 01:53:42,477 [API] [INFO] Evento recibido y publicado: Position - Placa JYR-620
+2026-03-09 01:53:42,477 [API] [INFO] Evento recibido y publicado: Position - Placa PTF-038
+2026-03-09 01:53:42,479 [API] [INFO] Evento recibido y publicado: Position - Placa SYX-824
+2026-03-09 01:53:42,479 [API] [INFO] Evento recibido y publicado: Position - Placa HKA-535
+2026-03-09 01:53:42,540 [API] [INFO] Evento recibido y publicado: Position - Placa JDY-222
+2026-03-09 01:53:42,551 [API] [INFO] Evento recibido y publicado: Position - Placa FYU-585
+2026-03-09 01:53:42,554 [API] [INFO] Evento recibido y publicado: Position - Placa NRG-074
+2026-03-09 01:53:42,577 [API] [INFO] Evento recibido y publicado: Position - Placa DMG-716
+2026-03-09 01:53:42,578 [API] [INFO] Evento recibido y publicado: Position - Placa DWQ-919
+2026-03-09 01:53:42,581 [API] [INFO] Evento recibido y publicado: Position - Placa PJN-131
+2026-03-09 01:53:42,580 [API] [INFO] Evento recibido y publicado: Position - Placa QHN-222
+2026-03-09 01:53:42,582 [API] [INFO] Evento recibido y publicado: Position - Placa LJE-783
+2026-03-09 01:53:42,586 [API] [INFO] Evento recibido y publicado: Position - Placa UKP-487
+2026-03-09 01:53:42,586 [API] [INFO] Evento recibido y publicado: Position - Placa TYC-834
+2026-03-09 01:53:42,644 [API] [INFO] Evento recibido y publicado: Position - Placa CZL-032
+2026-03-09 01:53:42,656 [API] [INFO] Evento recibido y publicado: Position - Placa VPM-677
+2026-03-09 01:53:42,657 [API] [INFO] Evento recibido y publicado: Position - Placa GQR-563
+2026-03-09 01:53:42,682 [API] [INFO] Evento recibido y publicado: Position - Placa HPQ-131
+2026-03-09 01:53:42,682 [API] [INFO] Evento recibido y publicado: Position - Placa PVZ-515
+2026-03-09 01:53:42,686 [API] [INFO] Evento recibido y publicado: Position - Placa UID-245
+2026-03-09 01:53:42,686 [API] [INFO] Evento recibido y publicado: Position - Placa XRJ-371
+2026-03-09 01:53:42,689 [API] [INFO] Evento recibido y publicado: Position - Placa OCC-348
+2026-03-09 01:53:42,690 [API] [INFO] Evento recibido y publicado: Position - Placa JSY-652
+2026-03-09 01:53:42,690 [API] [INFO] Evento recibido y publicado: Position - Placa YDL-092
+2026-03-09 01:53:42,751 [API] [INFO] Evento recibido y publicado: Position - Placa IQW-306
+2026-03-09 01:53:42,762 [API] [INFO] Evento recibido y publicado: Position - Placa NMP-601
+2026-03-09 01:53:42,762 [API] [INFO] Evento recibido y publicado: Position - Placa TYE-539
+2026-03-09 01:53:42,787 [API] [INFO] Evento recibido y publicado: Position - Placa IBM-594
+2026-03-09 01:53:42,787 [API] [INFO] Evento recibido y publicado: Position - Placa PLD-425
+2026-03-09 01:53:42,791 [API] [INFO] Evento recibido y publicado: Position - Placa EPN-898
+2026-03-09 01:53:42,791 [API] [INFO] Evento recibido y publicado: Position - Placa OIV-745
+2026-03-09 01:53:42,796 [API] [INFO] Evento recibido y publicado: Position - Placa CRS-741
+2026-03-09 01:53:42,796 [API] [INFO] Evento recibido y publicado: Position - Placa YEA-444
+2026-03-09 01:53:42,796 [API] [INFO] Evento recibido y publicado: Position - Placa XCA-717
+2026-03-09 01:53:42,857 [API] [INFO] Evento recibido y publicado: Position - Placa AKF-148
+2026-03-09 01:53:42,867 [API] [INFO] Evento recibido y publicado: Position - Placa ACV-469
+2026-03-09 01:53:42,867 [API] [INFO] Evento recibido y publicado: Position - Placa DSJ-454
+2026-03-09 01:53:42,890 [API] [INFO] Evento recibido y publicado: Position - Placa BKO-855
+2026-03-09 01:53:42,891 [API] [INFO] Evento recibido y publicado: Position - Placa DUW-003
+2026-03-09 01:53:42,894 [API] [INFO] Evento recibido y publicado: Position - Placa LQQ-096
+2026-03-09 01:53:42,894 [API] [INFO] Evento recibido y publicado: Position - Placa AXX-066
+2026-03-09 01:53:42,901 [API] [INFO] Evento recibido y publicado: Position - Placa QRA-306
+2026-03-09 01:53:42,901 [API] [INFO] Evento recibido y publicado: Position - Placa YFE-402
+2026-03-09 01:53:42,903 [API] [INFO] Evento recibido y publicado: Position - Placa MHW-536
+2026-03-09 01:53:42,961 [API] [INFO] Evento recibido y publicado: Position - Placa HAH-084
+2026-03-09 01:53:42,971 [API] [INFO] Evento recibido y publicado: Position - Placa KCG-363
+2026-03-09 01:53:42,972 [API] [INFO] Evento recibido y publicado: Position - Placa NGF-053
+2026-03-09 01:53:42,994 [API] [INFO] Evento recibido y publicado: Position - Placa XJP-884
+2026-03-09 01:53:42,994 [API] [INFO] Evento recibido y publicado: Position - Placa CXS-108
+2026-03-09 01:53:42,998 [API] [INFO] Evento recibido y publicado: Position - Placa OQK-895
+2026-03-09 01:53:42,998 [API] [INFO] Evento recibido y publicado: Position - Placa CYN-839
+2026-03-09 01:53:43,005 [API] [INFO] Evento recibido y publicado: Position - Placa VSK-891
+2026-03-09 01:53:43,005 [API] [INFO] Evento recibido y publicado: Position - Placa EQH-875
+2026-03-09 01:53:43,007 [API] [INFO] Evento recibido y publicado: Position - Placa FAB-013
+2026-03-09 01:53:43,067 [API] [INFO] Evento recibido y publicado: Position - Placa RBK-435
+2026-03-09 01:53:43,075 [API] [INFO] Evento recibido y publicado: Position - Placa VLF-482
+2026-03-09 01:53:43,075 [API] [INFO] Evento recibido y publicado: Position - Placa ENT-408
+2026-03-09 01:53:43,098 [API] [INFO] Evento recibido y publicado: Position - Placa PVC-945
+2026-03-09 01:53:43,098 [API] [INFO] Evento recibido y publicado: Position - Placa PMS-351
+2026-03-09 01:53:43,102 [API] [INFO] Evento recibido y publicado: Position - Placa UXN-469
+2026-03-09 01:53:43,102 [API] [INFO] Evento recibido y publicado: Position - Placa RZZ-902
+2026-03-09 01:53:43,108 [API] [INFO] Evento recibido y publicado: Position - Placa PCG-687
+2026-03-09 01:53:43,108 [API] [INFO] Evento recibido y publicado: Position - Placa ZZG-386
+2026-03-09 01:53:43,109 [API] [INFO] Evento recibido y publicado: Position - Placa ECN-666
+2026-03-09 01:53:43,172 [API] [INFO] Evento recibido y publicado: Position - Placa YVB-720
+2026-03-09 01:53:43,181 [API] [INFO] Evento recibido y publicado: Position - Placa OVY-464
+2026-03-09 01:53:43,181 [API] [INFO] Evento recibido y publicado: Position - Placa WZV-675
+2026-03-09 01:53:43,204 [API] [INFO] Evento recibido y publicado: Position - Placa OJD-103
+2026-03-09 01:53:43,205 [API] [INFO] Evento recibido y publicado: Position - Placa LEJ-786
+2026-03-09 01:53:43,208 [API] [INFO] Evento recibido y publicado: Position - Placa YDN-497
+2026-03-09 01:53:43,210 [API] [INFO] Evento recibido y publicado: Position - Placa HSJ-090
+2026-03-09 01:53:43,215 [API] [INFO] Evento recibido y publicado: Position - Placa APP-893
+2026-03-09 01:53:43,215 [API] [INFO] Evento recibido y publicado: Position - Placa WYA-866
+2026-03-09 01:53:43,215 [API] [INFO] Evento recibido y publicado: Position - Placa VUX-283
+2026-03-09 01:53:43,278 [API] [INFO] Evento recibido y publicado: Position - Placa SON-972
+2026-03-09 01:53:43,287 [API] [INFO] Evento recibido y publicado: Position - Placa QEG-423
+2026-03-09 01:53:43,289 [API] [INFO] Evento recibido y publicado: Position - Placa GUV-911
+2026-03-09 01:53:43,312 [API] [INFO] Evento recibido y publicado: Position - Placa EFS-047
+2026-03-09 01:53:43,313 [API] [INFO] Evento recibido y publicado: Position - Placa VFT-171
+2026-03-09 01:53:43,314 [API] [INFO] Evento recibido y publicado: Position - Placa OFH-816
+2026-03-09 01:53:43,317 [API] [INFO] Evento recibido y publicado: Position - Placa FDM-716
+2026-03-09 01:53:43,318 [API] [INFO] Evento recibido y publicado: Position - Placa CNX-137
+2026-03-09 01:53:43,320 [API] [INFO] Evento recibido y publicado: Position - Placa ULA-452
+2026-03-09 01:53:43,320 [API] [INFO] Evento recibido y publicado: Position - Placa FOE-733
+2026-03-09 01:53:43,384 [API] [INFO] Evento recibido y publicado: Position - Placa BGP-538
+2026-03-09 01:53:43,401 [API] [INFO] Evento recibido y publicado: Position - Placa AGB-011
+2026-03-09 01:53:43,401 [API] [INFO] Evento recibido y publicado: Position - Placa JAN-341
+2026-03-09 01:53:43,417 [API] [INFO] Evento recibido y publicado: Position - Placa PVR-502
+2026-03-09 01:53:43,417 [API] [INFO] Evento recibido y publicado: Position - Placa QCZ-601
+2026-03-09 01:53:43,417 [API] [INFO] Evento recibido y publicado: Position - Placa TDP-615
+2026-03-09 01:53:43,420 [API] [INFO] Evento recibido y publicado: Position - Placa RZN-913
+2026-03-09 01:53:43,420 [API] [INFO] Evento recibido y publicado: Position - Placa VMW-289
+2026-03-09 01:53:43,422 [API] [INFO] Evento recibido y publicado: Position - Placa ZIB-841
+2026-03-09 01:53:43,423 [API] [INFO] Evento recibido y publicado: Position - Placa KPF-471
+2026-03-09 01:53:43,487 [API] [INFO] Evento recibido y publicado: Position - Placa HBQ-596
+2026-03-09 01:53:43,506 [API] [INFO] Evento recibido y publicado: Position - Placa EPY-173
+2026-03-09 01:53:43,506 [API] [INFO] Evento recibido y publicado: Position - Placa KSQ-240
+2026-03-09 01:53:43,521 [API] [INFO] Evento recibido y publicado: Position - Placa ZHQ-856
+2026-03-09 01:53:43,522 [API] [INFO] Evento recibido y publicado: Position - Placa LRW-155
+2026-03-09 01:53:43,521 [API] [INFO] Evento recibido y publicado: Position - Placa CDT-295
+2026-03-09 01:53:43,524 [API] [INFO] Evento recibido y publicado: Position - Placa FIJ-040
+2026-03-09 01:53:43,525 [API] [INFO] Evento recibido y publicado: Position - Placa AMM-955
+2026-03-09 01:53:43,528 [API] [INFO] Evento recibido y publicado: Position - Placa JPW-995
+2026-03-09 01:53:43,538 [API] [INFO] Evento recibido y publicado: Position - Placa FAR-623
+2026-03-09 01:53:43,590 [API] [INFO] Evento recibido y publicado: Position - Placa XAQ-331
+2026-03-09 01:53:43,611 [API] [INFO] Evento recibido y publicado: Position - Placa MKO-923
+2026-03-09 01:53:43,615 [API] [INFO] Evento recibido y publicado: Position - Placa EZD-516
+2026-03-09 01:53:43,626 [API] [INFO] Evento recibido y publicado: Position - Placa YTO-113
+2026-03-09 01:53:43,627 [API] [INFO] Evento recibido y publicado: Position - Placa LLY-582
+2026-03-09 01:53:43,629 [API] [INFO] Evento recibido y publicado: Position - Placa TQF-578
+2026-03-09 01:53:43,632 [API] [INFO] Evento recibido y publicado: Position - Placa CGC-807
+2026-03-09 01:53:43,632 [API] [INFO] Evento recibido y publicado: Position - Placa UEW-837
+2026-03-09 01:53:43,634 [API] [INFO] Evento recibido y publicado: Position - Placa HIK-231
+2026-03-09 01:53:43,642 [API] [INFO] Evento recibido y publicado: Position - Placa GRJ-265
+2026-03-09 01:53:43,693 [API] [INFO] Evento recibido y publicado: Position - Placa UMH-895
+2026-03-09 01:53:43,715 [API] [INFO] Evento recibido y publicado: Position - Placa PEV-953
+2026-03-09 01:53:43,717 [API] [INFO] Evento recibido y publicado: Position - Placa PSU-873
+2026-03-09 01:53:43,730 [API] [INFO] Evento recibido y publicado: Position - Placa JBI-014
+2026-03-09 01:53:43,730 [API] [INFO] Evento recibido y publicado: Position - Placa UBD-294
+2026-03-09 01:53:43,732 [API] [INFO] Evento recibido y publicado: Position - Placa RPM-403
+2026-03-09 01:53:43,736 [API] [INFO] Evento recibido y publicado: Position - Placa QJY-173
+2026-03-09 01:53:43,736 [API] [INFO] Evento recibido y publicado: Position - Placa QPX-640
+2026-03-09 01:53:43,739 [API] [INFO] Evento recibido y publicado: Position - Placa TXX-207
+2026-03-09 01:53:43,744 [API] [INFO] Evento recibido y publicado: Position - Placa YGX-292
+2026-03-09 01:53:43,797 [API] [INFO] Evento recibido y publicado: Position - Placa IHC-707
+2026-03-09 01:53:43,819 [API] [INFO] Evento recibido y publicado: Position - Placa GSC-732
+2026-03-09 01:53:43,820 [API] [INFO] Evento recibido y publicado: Position - Placa FWU-552
+2026-03-09 01:53:43,833 [API] [INFO] Evento recibido y publicado: Position - Placa MQM-568
+2026-03-09 01:53:43,833 [API] [INFO] Evento recibido y publicado: Position - Placa LOW-016
+2026-03-09 01:53:43,835 [API] [INFO] Evento recibido y publicado: Position - Placa KOL-278
+2026-03-09 01:53:43,839 [API] [INFO] Evento recibido y publicado: Position - Placa IXR-721
+2026-03-09 01:53:43,839 [API] [INFO] Evento recibido y publicado: Position - Placa NGW-229
+2026-03-09 01:53:43,841 [API] [INFO] Evento recibido y publicado: Position - Placa IWS-202
+2026-03-09 01:53:43,847 [API] [INFO] Evento recibido y publicado: Position - Placa OCY-689
+2026-03-09 01:53:43,901 [API] [INFO] Evento recibido y publicado: Position - Placa FBC-168
+2026-03-09 01:53:43,923 [API] [INFO] Evento recibido y publicado: Position - Placa QXB-581
+2026-03-09 01:53:43,923 [API] [INFO] Evento recibido y publicado: Position - Placa WQS-639
+2026-03-09 01:53:43,942 [API] [INFO] Evento recibido y publicado: Position - Placa GZF-697
+2026-03-09 01:53:43,942 [API] [INFO] Evento recibido y publicado: Position - Placa ZJE-077
+2026-03-09 01:53:43,942 [API] [INFO] Evento recibido y publicado: Position - Placa WRP-747
+2026-03-09 01:53:43,944 [API] [INFO] Evento recibido y publicado: Position - Placa FSV-187
+2026-03-09 01:53:43,945 [API] [INFO] Evento recibido y publicado: Position - Placa PPA-176
+2026-03-09 01:53:43,951 [API] [INFO] Evento recibido y publicado: Position - Placa TGM-666
+2026-03-09 01:53:43,960 [API] [INFO] Evento recibido y publicado: Position - Placa OFR-382
+2026-03-09 01:53:44,005 [API] [INFO] Evento recibido y publicado: Position - Placa YUE-266
+2026-03-09 01:53:44,029 [API] [INFO] Evento recibido y publicado: Position - Placa VQS-031
+2026-03-09 01:53:44,031 [API] [INFO] Evento recibido y publicado: Position - Placa YXH-076
+2026-03-09 01:53:44,050 [API] [INFO] Evento recibido y publicado: Position - Placa XOG-184
+2026-03-09 01:53:44,050 [API] [INFO] Evento recibido y publicado: Position - Placa YFZ-278
+2026-03-09 01:53:44,050 [API] [INFO] Evento recibido y publicado: Position - Placa FRY-542
+2026-03-09 01:53:44,051 [API] [INFO] Evento recibido y publicado: Position - Placa VUB-463
+2026-03-09 01:53:44,054 [API] [INFO] Evento recibido y publicado: Position - Placa ZZR-141
+2026-03-09 01:53:44,056 [API] [INFO] Evento recibido y publicado: Position - Placa SVT-259
+2026-03-09 01:53:44,065 [API] [INFO] Evento recibido y publicado: Position - Placa NHH-361
+2026-03-09 01:53:44,109 [API] [INFO] Evento recibido y publicado: Position - Placa WVP-211
+2026-03-09 01:53:44,133 [API] [INFO] Evento recibido y publicado: Position - Placa YKW-797
+2026-03-09 01:53:44,133 [API] [INFO] Evento recibido y publicado: Position - Placa LUH-671
+2026-03-09 01:53:44,156 [API] [INFO] Evento recibido y publicado: Position - Placa CHD-284
+2026-03-09 01:53:44,156 [API] [INFO] Evento recibido y publicado: Position - Placa WIE-244
+2026-03-09 01:53:44,156 [API] [INFO] Evento recibido y publicado: Position - Placa QFG-338
+2026-03-09 01:53:44,156 [API] [INFO] Evento recibido y publicado: Position - Placa TSM-695
+2026-03-09 01:53:44,160 [API] [INFO] Evento recibido y publicado: Position - Placa YLH-599
+2026-03-09 01:53:44,161 [API] [INFO] Evento recibido y publicado: Position - Placa MJV-013
+2026-03-09 01:53:44,168 [API] [INFO] Evento recibido y publicado: Position - Placa MTT-919
+2026-03-09 01:53:44,214 [API] [INFO] Evento recibido y publicado: Position - Placa CQJ-759
+2026-03-09 01:53:44,239 [API] [INFO] Evento recibido y publicado: Position - Placa VVA-062
+2026-03-09 01:53:44,239 [API] [INFO] Evento recibido y publicado: Position - Placa YVM-014
+2026-03-09 01:53:44,262 [API] [INFO] Evento recibido y publicado: Position - Placa JMS-955
+2026-03-09 01:53:44,263 [API] [INFO] Evento recibido y publicado: Position - Placa SHC-973
+2026-03-09 01:53:44,265 [API] [INFO] Evento recibido y publicado: Position - Placa LOY-089
+2026-03-09 01:53:44,265 [API] [INFO] Evento recibido y publicado: Position - Placa THN-906
+2026-03-09 01:53:44,266 [API] [INFO] Evento recibido y publicado: Position - Placa GZP-257
+2026-03-09 01:53:44,269 [API] [INFO] Evento recibido y publicado: Position - Placa GQT-699
+2026-03-09 01:53:44,271 [API] [INFO] Evento recibido y publicado: Position - Placa AFB-734
+2026-03-09 01:53:44,320 [API] [INFO] Evento recibido y publicado: Position - Placa DPK-799
+2026-03-09 01:53:44,343 [API] [INFO] Evento recibido y publicado: Position - Placa PHZ-337
+2026-03-09 01:53:44,343 [API] [INFO] Evento recibido y publicado: Position - Placa HCW-285
+2026-03-09 01:53:44,369 [API] [INFO] Evento recibido y publicado: Position - Placa GQB-540
+2026-03-09 01:53:44,369 [API] [INFO] Evento recibido y publicado: Position - Placa NXT-719
+2026-03-09 01:53:44,372 [API] [INFO] Evento recibido y publicado: Position - Placa DNJ-063
+2026-03-09 01:53:44,370 [API] [INFO] Evento recibido y publicado: Position - Placa WRI-004
+2026-03-09 01:53:44,372 [API] [INFO] Evento recibido y publicado: Position - Placa UZG-497
+2026-03-09 01:53:44,374 [API] [INFO] Evento recibido y publicado: Position - Placa QFW-182
+2026-03-09 01:53:44,382 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:44,386 [API] [INFO] Socket connected: <socket.socket fd=29, family=2, type=1, proto=6, laddr=('172.18.0.4', 46134), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:44,389 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b1202d0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b1202d0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:44,399 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b1202d0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:44,399 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b1202d0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:44,400 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b1202d0> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:44,401 [API] [INFO] Created channel=1
+2026-03-09 01:53:44,403 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473282994560)
+2026-03-09 01:53:44,403 [API] [INFO] Evento recibido y publicado: Position - Placa SVK-555
+2026-03-09 01:53:44,425 [API] [INFO] Evento recibido y publicado: Position - Placa JQL-878
+2026-03-09 01:53:44,447 [API] [INFO] Evento recibido y publicado: Position - Placa SHX-789
+2026-03-09 01:53:44,447 [API] [INFO] Evento recibido y publicado: Position - Placa ODA-867
+2026-03-09 01:53:44,474 [API] [INFO] Evento recibido y publicado: Position - Placa TBX-250
+2026-03-09 01:53:44,477 [API] [INFO] Evento recibido y publicado: Position - Placa MDX-872
+2026-03-09 01:53:44,477 [API] [INFO] Evento recibido y publicado: Position - Placa XJS-988
+2026-03-09 01:53:44,481 [API] [INFO] Evento recibido y publicado: Position - Placa PHM-869
+2026-03-09 01:53:44,481 [API] [INFO] Evento recibido y publicado: Position - Placa IAO-739
+2026-03-09 01:53:44,482 [API] [INFO] Evento recibido y publicado: Position - Placa NRI-538
+2026-03-09 01:53:44,506 [API] [INFO] Evento recibido y publicado: Position - Placa YYD-081
+2026-03-09 01:53:44,528 [API] [INFO] Evento recibido y publicado: Position - Placa UFB-839
+2026-03-09 01:53:44,552 [API] [INFO] Evento recibido y publicado: Position - Placa WYI-197
+2026-03-09 01:53:44,553 [API] [INFO] Evento recibido y publicado: Position - Placa RLM-962
+2026-03-09 01:53:44,579 [API] [INFO] Evento recibido y publicado: Position - Placa QXV-972
+2026-03-09 01:53:44,582 [API] [INFO] Evento recibido y publicado: Position - Placa QAJ-457
+2026-03-09 01:53:44,582 [API] [INFO] Evento recibido y publicado: Position - Placa WTC-828
+2026-03-09 01:53:44,585 [API] [INFO] Evento recibido y publicado: Position - Placa DFN-071
+2026-03-09 01:53:44,586 [API] [INFO] Evento recibido y publicado: Position - Placa SZQ-082
+2026-03-09 01:53:44,586 [API] [INFO] Evento recibido y publicado: Position - Placa IIK-679
+2026-03-09 01:53:44,628 [API] [INFO] Evento recibido y publicado: Position - Placa SQS-554
+2026-03-09 01:53:44,656 [API] [INFO] Evento recibido y publicado: Position - Placa OBO-477
+2026-03-09 01:53:44,683 [API] [INFO] Evento recibido y publicado: Position - Placa MYK-355
+2026-03-09 01:53:44,684 [API] [INFO] Evento recibido y publicado: Position - Placa WHJ-580
+2026-03-09 01:53:44,687 [API] [INFO] Evento recibido y publicado: Position - Placa FNP-632
+2026-03-09 01:53:44,687 [API] [INFO] Evento recibido y publicado: Position - Placa GTB-899
+2026-03-09 01:53:44,688 [API] [INFO] Evento recibido y publicado: Position - Placa XKL-151
+2026-03-09 01:53:44,691 [API] [INFO] Evento recibido y publicado: Position - Placa RTG-925
+2026-03-09 01:53:44,691 [API] [INFO] Evento recibido y publicado: Position - Placa VCG-225
+2026-03-09 01:53:44,691 [API] [INFO] Evento recibido y publicado: Position - Placa QAN-731
+2026-03-09 01:53:44,757 [API] [INFO] Evento recibido y publicado: Position - Placa ZKQ-025
+2026-03-09 01:53:44,787 [API] [INFO] Evento recibido y publicado: Position - Placa YMV-510
+2026-03-09 01:53:44,788 [API] [INFO] Evento recibido y publicado: Position - Placa LPI-239
+2026-03-09 01:53:44,790 [API] [INFO] Evento recibido y publicado: Position - Placa MEF-444
+2026-03-09 01:53:44,791 [API] [INFO] Evento recibido y publicado: Position - Placa PBW-880
+2026-03-09 01:53:44,792 [API] [INFO] Evento recibido y publicado: Position - Placa KXW-555
+2026-03-09 01:53:44,792 [API] [INFO] Evento recibido y publicado: Position - Placa RZF-090
+2026-03-09 01:53:44,796 [API] [INFO] Evento recibido y publicado: Position - Placa BQN-279
+2026-03-09 01:53:44,799 [API] [INFO] Evento recibido y publicado: Position - Placa EGZ-870
+2026-03-09 01:53:44,800 [API] [INFO] Evento recibido y publicado: Position - Placa HZF-070
+2026-03-09 01:53:44,862 [API] [INFO] Evento recibido y publicado: Position - Placa BTJ-054
+2026-03-09 01:53:44,890 [API] [INFO] Evento recibido y publicado: Position - Placa LIZ-423
+2026-03-09 01:53:44,892 [API] [INFO] Evento recibido y publicado: Position - Placa XUW-867
+2026-03-09 01:53:44,893 [API] [INFO] Evento recibido y publicado: Position - Placa XZZ-863
+2026-03-09 01:53:44,895 [API] [INFO] Evento recibido y publicado: Position - Placa YGR-118
+2026-03-09 01:53:44,897 [API] [INFO] Evento recibido y publicado: Position - Placa BSD-879
+2026-03-09 01:53:44,897 [API] [INFO] Evento recibido y publicado: Position - Placa YCY-164
+2026-03-09 01:53:44,900 [API] [INFO] Evento recibido y publicado: Position - Placa RUV-250
+2026-03-09 01:53:44,904 [API] [INFO] Evento recibido y publicado: Position - Placa ZOC-175
+2026-03-09 01:53:44,904 [API] [INFO] Evento recibido y publicado: Position - Placa HFV-867
+2026-03-09 01:53:44,965 [API] [INFO] Evento recibido y publicado: Position - Placa XNQ-002
+2026-03-09 01:53:44,994 [API] [INFO] Evento recibido y publicado: Position - Placa KEW-468
+2026-03-09 01:53:44,997 [API] [INFO] Evento recibido y publicado: Position - Placa ZAZ-001
+2026-03-09 01:53:44,998 [API] [INFO] Evento recibido y publicado: Position - Placa QDJ-647
+2026-03-09 01:53:44,998 [API] [INFO] Evento recibido y publicado: Position - Placa GCS-023
+2026-03-09 01:53:45,003 [API] [INFO] Evento recibido y publicado: Position - Placa YRA-008
+2026-03-09 01:53:45,003 [API] [INFO] Evento recibido y publicado: Position - Placa XHO-238
+2026-03-09 01:53:45,003 [API] [INFO] Evento recibido y publicado: Position - Placa ZNJ-388
+2026-03-09 01:53:45,009 [API] [INFO] Evento recibido y publicado: Position - Placa AZB-680
+2026-03-09 01:53:45,009 [API] [INFO] Evento recibido y publicado: Position - Placa DLQ-982
+2026-03-09 01:53:45,069 [API] [INFO] Evento recibido y publicado: Position - Placa LBM-874
+2026-03-09 01:53:45,104 [API] [INFO] Evento recibido y publicado: Position - Placa MST-411
+2026-03-09 01:53:45,105 [API] [INFO] Evento recibido y publicado: Position - Placa OCB-257
+2026-03-09 01:53:45,105 [API] [INFO] Evento recibido y publicado: Position - Placa JOV-261
+2026-03-09 01:53:45,105 [API] [INFO] Evento recibido y publicado: Position - Placa MYD-647
+2026-03-09 01:53:45,109 [API] [INFO] Evento recibido y publicado: Position - Placa GVS-688
+2026-03-09 01:53:45,109 [API] [INFO] Evento recibido y publicado: Position - Placa KEO-433
+2026-03-09 01:53:45,109 [API] [INFO] Evento recibido y publicado: Position - Placa AHU-432
+2026-03-09 01:53:45,113 [API] [INFO] Evento recibido y publicado: Position - Placa NFI-532
+2026-03-09 01:53:45,113 [API] [INFO] Evento recibido y publicado: Position - Placa UAP-286
+2026-03-09 01:53:45,174 [API] [INFO] Evento recibido y publicado: Position - Placa ULM-299
+2026-03-09 01:53:45,210 [API] [INFO] Evento recibido y publicado: Position - Placa MGV-879
+2026-03-09 01:53:45,210 [API] [INFO] Evento recibido y publicado: Position - Placa QHF-444
+2026-03-09 01:53:45,211 [API] [INFO] Evento recibido y publicado: Position - Placa MBP-888
+2026-03-09 01:53:45,212 [API] [INFO] Evento recibido y publicado: Position - Placa ACP-513
+2026-03-09 01:53:45,214 [API] [INFO] Evento recibido y publicado: Position - Placa HCJ-251
+2026-03-09 01:53:45,214 [API] [INFO] Evento recibido y publicado: Position - Placa NBD-054
+2026-03-09 01:53:45,215 [API] [INFO] Evento recibido y publicado: Position - Placa KYU-636
+2026-03-09 01:53:45,216 [API] [INFO] Evento recibido y publicado: Position - Placa RVG-758
+2026-03-09 01:53:45,217 [API] [INFO] Evento recibido y publicado: Position - Placa GKQ-582
+2026-03-09 01:53:45,280 [API] [INFO] Evento recibido y publicado: Position - Placa AAN-928
+2026-03-09 01:53:45,315 [API] [INFO] Evento recibido y publicado: Position - Placa MAT-408
+2026-03-09 01:53:45,316 [API] [INFO] Evento recibido y publicado: Position - Placa QOS-479
+2026-03-09 01:53:45,317 [API] [INFO] Evento recibido y publicado: Position - Placa MUE-179
+2026-03-09 01:53:45,319 [API] [INFO] Evento recibido y publicado: Position - Placa LSV-418
+2026-03-09 01:53:45,319 [API] [INFO] Evento recibido y publicado: Position - Placa LDF-820
+2026-03-09 01:53:45,319 [API] [INFO] Evento recibido y publicado: Position - Placa LDW-595
+2026-03-09 01:53:45,321 [API] [INFO] Evento recibido y publicado: Position - Placa UKR-101
+2026-03-09 01:53:45,322 [API] [INFO] Evento recibido y publicado: Position - Placa NIB-193
+2026-03-09 01:53:45,322 [API] [INFO] Evento recibido y publicado: Position - Placa DQW-242
+2026-03-09 01:53:45,384 [API] [INFO] Evento recibido y publicado: Position - Placa GOZ-542
+2026-03-09 01:53:45,419 [API] [INFO] Evento recibido y publicado: Position - Placa NXS-638
+2026-03-09 01:53:45,421 [API] [INFO] Evento recibido y publicado: Position - Placa DLU-345
+2026-03-09 01:53:45,421 [API] [INFO] Evento recibido y publicado: Position - Placa RLN-132
+2026-03-09 01:53:45,423 [API] [INFO] Evento recibido y publicado: Position - Placa PTO-375
+2026-03-09 01:53:45,425 [API] [INFO] Evento recibido y publicado: Position - Placa VXI-531
+2026-03-09 01:53:45,425 [API] [INFO] Evento recibido y publicado: Position - Placa JHK-468
+2026-03-09 01:53:45,427 [API] [INFO] Evento recibido y publicado: Position - Placa SCJ-862
+2026-03-09 01:53:45,428 [API] [INFO] Evento recibido y publicado: Position - Placa JXP-600
+2026-03-09 01:53:45,429 [API] [INFO] Evento recibido y publicado: Position - Placa KXE-434
+2026-03-09 01:53:45,488 [API] [INFO] Evento recibido y publicado: Position - Placa CFX-236
+2026-03-09 01:53:45,523 [API] [INFO] Evento recibido y publicado: Position - Placa ZEJ-483
+2026-03-09 01:53:45,524 [API] [INFO] Evento recibido y publicado: Position - Placa UQO-812
+2026-03-09 01:53:45,525 [API] [INFO] Evento recibido y publicado: Position - Placa UFK-278
+2026-03-09 01:53:45,528 [API] [INFO] Evento recibido y publicado: Position - Placa FUA-646
+2026-03-09 01:53:45,529 [API] [INFO] Evento recibido y publicado: Position - Placa MHD-240
+2026-03-09 01:53:45,529 [API] [INFO] Evento recibido y publicado: Position - Placa QXG-959
+2026-03-09 01:53:45,531 [API] [INFO] Evento recibido y publicado: Position - Placa WGS-741
+2026-03-09 01:53:45,533 [API] [INFO] Evento recibido y publicado: Position - Placa HTB-056
+2026-03-09 01:53:45,537 [API] [INFO] Evento recibido y publicado: Position - Placa BUK-609
+2026-03-09 01:53:45,591 [API] [INFO] Evento recibido y publicado: Position - Placa QFP-672
+2026-03-09 01:53:45,627 [API] [INFO] Evento recibido y publicado: Position - Placa OQA-501
+2026-03-09 01:53:45,628 [API] [INFO] Evento recibido y publicado: Position - Placa LMC-285
+2026-03-09 01:53:45,628 [API] [INFO] Evento recibido y publicado: Position - Placa MMI-147
+2026-03-09 01:53:45,630 [API] [INFO] Evento recibido y publicado: Position - Placa SFC-885
+2026-03-09 01:53:45,631 [API] [INFO] Evento recibido y publicado: Position - Placa RBG-868
+2026-03-09 01:53:45,632 [API] [INFO] Evento recibido y publicado: Position - Placa JCB-628
+2026-03-09 01:53:45,634 [API] [INFO] Evento recibido y publicado: Position - Placa NYK-038
+2026-03-09 01:53:45,634 [API] [INFO] Evento recibido y publicado: Position - Placa CYC-519
+2026-03-09 01:53:45,641 [API] [INFO] Evento recibido y publicado: Position - Placa KCI-688
+2026-03-09 01:53:45,694 [API] [INFO] Evento recibido y publicado: Position - Placa SNN-031
+2026-03-09 01:53:45,731 [API] [INFO] Evento recibido y publicado: Position - Placa ALX-130
+2026-03-09 01:53:45,731 [API] [INFO] Evento recibido y publicado: Position - Placa TXI-253
+2026-03-09 01:53:45,735 [API] [INFO] Evento recibido y publicado: Position - Placa TGE-388
+2026-03-09 01:53:45,735 [API] [INFO] Evento recibido y publicado: Position - Placa SHU-731
+2026-03-09 01:53:45,735 [API] [INFO] Evento recibido y publicado: Position - Placa SJR-077
+2026-03-09 01:53:45,738 [API] [INFO] Evento recibido y publicado: Position - Placa GEB-581
+2026-03-09 01:53:45,739 [API] [INFO] Evento recibido y publicado: Position - Placa UTX-369
+2026-03-09 01:53:45,744 [API] [INFO] Evento recibido y publicado: Position - Placa VYX-071
+2026-03-09 01:53:45,746 [API] [INFO] Evento recibido y publicado: Position - Placa QOO-296
+2026-03-09 01:53:45,796 [API] [INFO] Evento recibido y publicado: Position - Placa SNA-797
+2026-03-09 01:53:45,835 [API] [INFO] Evento recibido y publicado: Position - Placa WAQ-034
+2026-03-09 01:53:45,835 [API] [INFO] Evento recibido y publicado: Position - Placa DBS-091
+2026-03-09 01:53:45,839 [API] [INFO] Evento recibido y publicado: Position - Placa IMJ-354
+2026-03-09 01:53:45,839 [API] [INFO] Evento recibido y publicado: Position - Placa KIJ-967
+2026-03-09 01:53:45,839 [API] [INFO] Evento recibido y publicado: Position - Placa RLA-696
+2026-03-09 01:53:45,842 [API] [INFO] Evento recibido y publicado: Position - Placa UWQ-326
+2026-03-09 01:53:45,842 [API] [INFO] Evento recibido y publicado: Position - Placa XMX-726
+2026-03-09 01:53:45,847 [API] [INFO] Evento recibido y publicado: Position - Placa DDY-546
+2026-03-09 01:53:45,849 [API] [INFO] Evento recibido y publicado: Position - Placa IWU-044
+2026-03-09 01:53:45,899 [API] [INFO] Evento recibido y publicado: Position - Placa QZE-187
+2026-03-09 01:53:45,938 [API] [INFO] Evento recibido y publicado: Position - Placa DST-084
+2026-03-09 01:53:45,938 [API] [INFO] Evento recibido y publicado: Position - Placa FJS-390
+2026-03-09 01:53:45,941 [API] [INFO] Evento recibido y publicado: Position - Placa ABN-068
+2026-03-09 01:53:45,942 [API] [INFO] Evento recibido y publicado: Position - Placa KFS-108
+2026-03-09 01:53:45,943 [API] [INFO] Evento recibido y publicado: Position - Placa LHR-934
+2026-03-09 01:53:45,945 [API] [INFO] Evento recibido y publicado: Position - Placa PAR-951
+2026-03-09 01:53:45,945 [API] [INFO] Evento recibido y publicado: Position - Placa ISQ-816
+2026-03-09 01:53:45,950 [API] [INFO] Evento recibido y publicado: Position - Placa IPJ-168
+2026-03-09 01:53:45,952 [API] [INFO] Evento recibido y publicado: Position - Placa CKE-296
+2026-03-09 01:53:46,002 [API] [INFO] Evento recibido y publicado: Position - Placa QQC-657
+2026-03-09 01:53:46,041 [API] [INFO] Evento recibido y publicado: Position - Placa RSX-768
+2026-03-09 01:53:46,041 [API] [INFO] Evento recibido y publicado: Position - Placa YKB-816
+2026-03-09 01:53:46,044 [API] [INFO] Evento recibido y publicado: Position - Placa YPV-068
+2026-03-09 01:53:46,044 [API] [INFO] Evento recibido y publicado: Position - Placa QES-857
+2026-03-09 01:53:46,046 [API] [INFO] Evento recibido y publicado: Position - Placa NDF-591
+2026-03-09 01:53:46,048 [API] [INFO] Evento recibido y publicado: Position - Placa MDK-264
+2026-03-09 01:53:46,048 [API] [INFO] Evento recibido y publicado: Position - Placa KPH-092
+2026-03-09 01:53:46,052 [API] [INFO] Evento recibido y publicado: Position - Placa OBV-657
+2026-03-09 01:53:46,054 [API] [INFO] Evento recibido y publicado: Position - Placa OAT-287
+2026-03-09 01:53:46,105 [API] [INFO] Evento recibido y publicado: Position - Placa FIP-192
+2026-03-09 01:53:46,145 [API] [INFO] Evento recibido y publicado: Position - Placa OYR-851
+2026-03-09 01:53:46,145 [API] [INFO] Evento recibido y publicado: Position - Placa TJJ-144
+2026-03-09 01:53:46,148 [API] [INFO] Evento recibido y publicado: Position - Placa HLG-680
+2026-03-09 01:53:46,148 [API] [INFO] Evento recibido y publicado: Position - Placa AXK-172
+2026-03-09 01:53:46,148 [API] [INFO] Evento recibido y publicado: Position - Placa XGB-379
+2026-03-09 01:53:46,151 [API] [INFO] Evento recibido y publicado: Position - Placa MEI-711
+2026-03-09 01:53:46,151 [API] [INFO] Evento recibido y publicado: Position - Placa UOT-022
+2026-03-09 01:53:46,156 [API] [INFO] Evento recibido y publicado: Position - Placa GKP-172
+2026-03-09 01:53:46,157 [API] [INFO] Evento recibido y publicado: Position - Placa LQL-034
+2026-03-09 01:53:46,209 [API] [INFO] Evento recibido y publicado: Position - Placa UZH-849
+2026-03-09 01:53:46,250 [API] [INFO] Evento recibido y publicado: Position - Placa YPJ-859
+2026-03-09 01:53:46,250 [API] [INFO] Evento recibido y publicado: Position - Placa SLF-354
+2026-03-09 01:53:46,253 [API] [INFO] Evento recibido y publicado: Position - Placa ZKO-678
+2026-03-09 01:53:46,253 [API] [INFO] Evento recibido y publicado: Position - Placa PJC-651
+2026-03-09 01:53:46,257 [API] [INFO] Evento recibido y publicado: Position - Placa DEW-649
+2026-03-09 01:53:46,254 [API] [INFO] Evento recibido y publicado: Position - Placa NWF-650
+2026-03-09 01:53:46,257 [API] [INFO] Evento recibido y publicado: Position - Placa SXU-241
+2026-03-09 01:53:46,268 [API] [INFO] Evento recibido y publicado: Position - Placa AEQ-538
+2026-03-09 01:53:46,280 [API] [INFO] Evento recibido y publicado: Position - Placa OKQ-802
+2026-03-09 01:53:46,314 [API] [INFO] Evento recibido y publicado: Position - Placa ZUD-227
+2026-03-09 01:53:46,354 [API] [INFO] Evento recibido y publicado: Position - Placa HVL-509
+2026-03-09 01:53:46,354 [API] [INFO] Evento recibido y publicado: Position - Placa QZN-774
+2026-03-09 01:53:46,357 [API] [INFO] Evento recibido y publicado: Position - Placa ACG-309
+2026-03-09 01:53:46,362 [API] [INFO] Evento recibido y publicado: Position - Placa XEY-702
+2026-03-09 01:53:46,364 [API] [INFO] Evento recibido y publicado: Position - Placa HGX-629
+2026-03-09 01:53:46,368 [API] [INFO] Evento recibido y publicado: Position - Placa ZSM-269
+2026-03-09 01:53:46,373 [API] [INFO] Evento recibido y publicado: Position - Placa XEG-662
+2026-03-09 01:53:46,373 [API] [INFO] Evento recibido y publicado: Position - Placa FEZ-860
+2026-03-09 01:53:46,385 [API] [INFO] Evento recibido y publicado: Position - Placa UPY-685
+2026-03-09 01:53:46,417 [API] [INFO] Evento recibido y publicado: Position - Placa HVN-159
+2026-03-09 01:53:46,460 [API] [INFO] Evento recibido y publicado: Position - Placa FEM-067
+2026-03-09 01:53:46,461 [API] [INFO] Evento recibido y publicado: Position - Placa SXV-775
+2026-03-09 01:53:46,460 [API] [INFO] Evento recibido y publicado: Position - Placa SKL-666
+2026-03-09 01:53:46,465 [API] [INFO] Evento recibido y publicado: Position - Placa QPB-472
+2026-03-09 01:53:46,466 [API] [INFO] Evento recibido y publicado: Position - Placa RFB-943
+2026-03-09 01:53:46,471 [API] [INFO] Evento recibido y publicado: Position - Placa OJI-941
+2026-03-09 01:53:46,477 [API] [INFO] Evento recibido y publicado: Position - Placa RRG-518
+2026-03-09 01:53:46,477 [API] [INFO] Evento recibido y publicado: Position - Placa GPU-310
+2026-03-09 01:53:46,487 [API] [INFO] Evento recibido y publicado: Position - Placa LSH-391
+2026-03-09 01:53:46,521 [API] [INFO] Evento recibido y publicado: Position - Placa UFY-448
+2026-03-09 01:53:46,566 [API] [INFO] Evento recibido y publicado: Position - Placa ZBL-005
+2026-03-09 01:53:46,566 [API] [INFO] Evento recibido y publicado: Position - Placa YIN-342
+2026-03-09 01:53:46,566 [API] [INFO] Evento recibido y publicado: Position - Placa NUT-435
+2026-03-09 01:53:46,574 [API] [INFO] Evento recibido y publicado: Position - Placa WKT-580
+2026-03-09 01:53:46,575 [API] [INFO] Evento recibido y publicado: Position - Placa RRR-505
+2026-03-09 01:53:46,576 [API] [INFO] Evento recibido y publicado: Position - Placa UQX-115
+2026-03-09 01:53:46,581 [API] [INFO] Evento recibido y publicado: Position - Placa CWQ-034
+2026-03-09 01:53:46,581 [API] [INFO] Evento recibido y publicado: Position - Placa SIR-750
+2026-03-09 01:53:46,590 [API] [INFO] Evento recibido y publicado: Position - Placa AVU-044
+2026-03-09 01:53:46,625 [API] [INFO] Evento recibido y publicado: Position - Placa LUE-560
+2026-03-09 01:53:46,679 [API] [INFO] Evento recibido y publicado: Position - Placa ZWA-087
+2026-03-09 01:53:46,680 [API] [INFO] Evento recibido y publicado: Position - Placa PJT-278
+2026-03-09 01:53:46,679 [API] [INFO] Evento recibido y publicado: Position - Placa LYG-236
+2026-03-09 01:53:46,679 [API] [INFO] Evento recibido y publicado: Position - Placa UPL-633
+2026-03-09 01:53:46,680 [API] [INFO] Evento recibido y publicado: Position - Placa QVN-865
+2026-03-09 01:53:46,681 [API] [INFO] Evento recibido y publicado: Position - Placa AYM-434
+2026-03-09 01:53:46,686 [API] [INFO] Evento recibido y publicado: Position - Placa NBT-090
+2026-03-09 01:53:46,686 [API] [INFO] Evento recibido y publicado: Position - Placa RBJ-030
+2026-03-09 01:53:46,693 [API] [INFO] Evento recibido y publicado: Position - Placa USI-004
+2026-03-09 01:53:46,730 [API] [INFO] Evento recibido y publicado: Position - Placa FAF-219
+2026-03-09 01:53:46,787 [API] [INFO] Evento recibido y publicado: Position - Placa SFT-166
+2026-03-09 01:53:46,787 [API] [INFO] Evento recibido y publicado: Position - Placa DWE-434
+2026-03-09 01:53:46,787 [API] [INFO] Evento recibido y publicado: Position - Placa JFG-101
+2026-03-09 01:53:46,789 [API] [INFO] Evento recibido y publicado: Position - Placa CDY-182
+2026-03-09 01:53:46,791 [API] [INFO] Evento recibido y publicado: Position - Placa KBY-741
+2026-03-09 01:53:46,793 [API] [INFO] Evento recibido y publicado: Position - Placa ZTZ-393
+2026-03-09 01:53:46,791 [API] [INFO] Evento recibido y publicado: Position - Placa SIX-193
+2026-03-09 01:53:46,794 [API] [INFO] Evento recibido y publicado: Position - Placa EAO-648
+2026-03-09 01:53:46,799 [API] [INFO] Evento recibido y publicado: Position - Placa GRL-073
+2026-03-09 01:53:46,839 [API] [INFO] Evento recibido y publicado: Position - Placa XRW-186
+2026-03-09 01:53:46,894 [API] [INFO] Evento recibido y publicado: Position - Placa UDR-558
+2026-03-09 01:53:46,896 [API] [INFO] Evento recibido y publicado: Position - Placa PER-210
+2026-03-09 01:53:46,897 [API] [INFO] Evento recibido y publicado: Position - Placa QKI-942
+2026-03-09 01:53:46,899 [API] [INFO] Evento recibido y publicado: Position - Placa QAZ-916
+2026-03-09 01:53:46,901 [API] [INFO] Evento recibido y publicado: Position - Placa QDT-011
+2026-03-09 01:53:46,902 [API] [INFO] Evento recibido y publicado: Position - Placa HDI-612
+2026-03-09 01:53:46,903 [API] [INFO] Evento recibido y publicado: Position - Placa PLS-551
+2026-03-09 01:53:46,903 [API] [INFO] Evento recibido y publicado: Position - Placa FOC-318
+2026-03-09 01:53:46,904 [API] [INFO] Evento recibido y publicado: Position - Placa FSD-213
+2026-03-09 01:53:46,943 [API] [INFO] Evento recibido y publicado: Position - Placa TSG-589
+2026-03-09 01:53:47,001 [API] [INFO] Evento recibido y publicado: Position - Placa VNF-640
+2026-03-09 01:53:47,006 [API] [INFO] Evento recibido y publicado: Position - Placa OZM-841
+2026-03-09 01:53:47,006 [API] [INFO] Evento recibido y publicado: Position - Placa HXH-500
+2026-03-09 01:53:47,009 [API] [INFO] Evento recibido y publicado: Position - Placa NCY-341
+2026-03-09 01:53:47,009 [API] [INFO] Evento recibido y publicado: Position - Placa IKS-191
+2026-03-09 01:53:47,012 [API] [INFO] Evento recibido y publicado: Position - Placa MOI-441
+2026-03-09 01:53:47,012 [API] [INFO] Evento recibido y publicado: Position - Placa GGR-095
+2026-03-09 01:53:47,014 [API] [INFO] Evento recibido y publicado: Position - Placa RWW-119
+2026-03-09 01:53:47,015 [API] [INFO] Evento recibido y publicado: Position - Placa ZBM-377
+2026-03-09 01:53:47,046 [API] [INFO] Evento recibido y publicado: Position - Placa USM-900
+2026-03-09 01:53:47,110 [API] [INFO] Evento recibido y publicado: Position - Placa JBD-028
+2026-03-09 01:53:47,146 [API] [INFO] Evento recibido y publicado: Position - Placa ODR-694
+2026-03-09 01:53:47,152 [API] [INFO] Evento recibido y publicado: Position - Placa WPS-038
+2026-03-09 01:53:47,152 [API] [INFO] Evento recibido y publicado: Position - Placa VOP-426
+2026-03-09 01:53:47,153 [API] [INFO] Evento recibido y publicado: Position - Placa QZH-103
+2026-03-09 01:53:47,153 [API] [INFO] Evento recibido y publicado: Position - Placa BSX-922
+2026-03-09 01:53:47,155 [API] [INFO] Evento recibido y publicado: Position - Placa PDV-923
+2026-03-09 01:53:47,155 [API] [INFO] Evento recibido y publicado: Position - Placa KNS-497
+2026-03-09 01:53:47,160 [API] [INFO] Evento recibido y publicado: Position - Placa VZS-288
+2026-03-09 01:53:47,173 [API] [INFO] Pika version 1.3.2 connecting to ('172.18.0.2', 5672)
+2026-03-09 01:53:47,174 [API] [INFO] Socket connected: <socket.socket fd=29, family=2, type=1, proto=6, laddr=('172.18.0.4', 46138), raddr=('172.18.0.2', 5672)>
+2026-03-09 01:53:47,175 [API] [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b120690>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b120690> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+2026-03-09 01:53:47,181 [API] [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b120690> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:47,181 [API] [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b120690> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:47,181 [API] [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0xffff9b120690> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+2026-03-09 01:53:47,182 [API] [INFO] Created channel=1
+2026-03-09 01:53:47,183 [API] [INFO] Conexión RabbitMQ inicializada (thread=281473282994560)
+2026-03-09 01:53:47,183 [API] [INFO] Evento recibido y publicado: Position - Placa DIA-690
+2026-03-09 01:53:47,228 [API] [INFO] Evento recibido y publicado: Position - Placa VNO-171
+2026-03-09 01:53:47,257 [API] [INFO] Evento recibido y publicado: Position - Placa ALZ-065
+2026-03-09 01:53:47,257 [API] [INFO] Evento recibido y publicado: Position - Placa IBY-889
+2026-03-09 01:53:47,257 [API] [INFO] Evento recibido y publicado: Position - Placa BXT-807
+2026-03-09 01:53:47,260 [API] [INFO] Evento recibido y publicado: Position - Placa YBM-146
+2026-03-09 01:53:47,261 [API] [INFO] Evento recibido y publicado: Position - Placa UTA-350
+2026-03-09 01:53:47,261 [API] [INFO] Evento recibido y publicado: Position - Placa AIK-270
+2026-03-09 01:53:47,261 [API] [INFO] Evento recibido y publicado: Position - Placa ZGM-097
+2026-03-09 01:53:47,271 [API] [INFO] Evento recibido y publicado: Position - Placa EEQ-377
+2026-03-09 01:53:47,286 [API] [INFO] Evento recibido y publicado: Position - Placa KEN-679
+2026-03-09 01:53:47,332 [API] [INFO] Evento recibido y publicado: Position - Placa IAU-391
+2026-03-09 01:53:47,363 [API] [INFO] Evento recibido y publicado: Position - Placa TDZ-527
+2026-03-09 01:53:47,363 [API] [INFO] Evento recibido y publicado: Position - Placa VFW-159
+2026-03-09 01:53:47,363 [API] [INFO] Evento recibido y publicado: Position - Placa BEV-112
+2026-03-09 01:53:47,371 [API] [INFO] Evento recibido y publicado: Position - Placa XMV-942
+2026-03-09 01:53:47,372 [API] [INFO] Evento recibido y publicado: Position - Placa DJX-826
+2026-03-09 01:53:47,368 [API] [INFO] Evento recibido y publicado: Position - Placa TFQ-157
+2026-03-09 01:53:47,368 [API] [INFO] Evento recibido y publicado: Position - Placa EIL-702
+2026-03-09 01:53:47,377 [API] [INFO] Evento recibido y publicado: Position - Placa ANN-223
+2026-03-09 01:53:47,390 [API] [INFO] Evento recibido y publicado: Position - Placa WAO-482
+2026-03-09 01:53:47,438 [API] [INFO] Evento recibido y publicado: Position - Placa BXQ-811
+2026-03-09 01:53:47,473 [API] [INFO] Evento recibido y publicado: Position - Placa UWJ-394
+2026-03-09 01:53:47,473 [API] [INFO] Evento recibido y publicado: Position - Placa IMZ-959
+2026-03-09 01:53:47,476 [API] [INFO] Evento recibido y publicado: Position - Placa SHQ-566
+2026-03-09 01:53:47,476 [API] [INFO] Evento recibido y publicado: Position - Placa BPD-506
+2026-03-09 01:53:47,478 [API] [INFO] Evento recibido y publicado: Position - Placa JSX-550
+2026-03-09 01:53:47,478 [API] [INFO] Evento recibido y publicado: Position - Placa ZVU-616
+2026-03-09 01:53:47,480 [API] [INFO] Evento recibido y publicado: Position - Placa RHB-917
+2026-03-09 01:53:47,480 [API] [INFO] Evento recibido y publicado: Position - Placa WTH-218
+2026-03-09 01:53:47,492 [API] [INFO] Evento recibido y publicado: Position - Placa KJS-589
+2026-03-09 01:53:47,542 [API] [INFO] Evento recibido y publicado: Position - Placa YOZ-329
+2026-03-09 01:53:47,579 [API] [INFO] Evento recibido y publicado: Position - Placa CMI-120
+2026-03-09 01:53:47,579 [API] [INFO] Evento recibido y publicado: Position - Placa ZPK-924
+2026-03-09 01:53:47,583 [API] [INFO] Evento recibido y publicado: Position - Placa BZO-186
+2026-03-09 01:53:47,583 [API] [INFO] Evento recibido y publicado: Position - Placa DUY-008
+2026-03-09 01:53:47,584 [API] [INFO] Evento recibido y publicado: Position - Placa YWD-356
+2026-03-09 01:53:47,585 [API] [INFO] Evento recibido y publicado: Position - Placa EXL-140
+2026-03-09 01:53:47,586 [API] [INFO] Evento recibido y publicado: Position - Placa FSX-974
+2026-03-09 01:53:47,588 [API] [INFO] Evento recibido y publicado: Position - Placa SFS-575
+2026-03-09 01:53:47,594 [API] [INFO] Evento recibido y publicado: Position - Placa OWW-930
+2026-03-09 01:53:47,646 [API] [INFO] Evento recibido y publicado: Position - Placa CQY-108
+2026-03-09 01:53:47,685 [API] [INFO] Evento recibido y publicado: Position - Placa AIS-229
+2026-03-09 01:53:47,685 [API] [INFO] Evento recibido y publicado: Position - Placa BLL-579
+2026-03-09 01:53:47,690 [API] [INFO] Evento recibido y publicado: Position - Placa RZW-988
+2026-03-09 01:53:47,692 [API] [INFO] Evento recibido y publicado: Position - Placa UYM-606
+2026-03-09 01:53:47,692 [API] [INFO] Evento recibido y publicado: Position - Placa QSN-729
+2026-03-09 01:53:47,692 [API] [INFO] Evento recibido y publicado: Position - Placa VKF-007
+2026-03-09 01:53:47,695 [API] [INFO] Evento recibido y publicado: Position - Placa BWS-984
+2026-03-09 01:53:47,694 [API] [INFO] Evento recibido y publicado: Position - Placa QBK-616
+2026-03-09 01:53:47,699 [API] [INFO] Evento recibido y publicado: Position - Placa VEH-084
+2026-03-09 01:53:47,754 [API] [INFO] Evento recibido y publicado: Position - Placa ZCL-806
+2026-03-09 01:53:47,797 [API] [INFO] Evento recibido y publicado: Position - Placa PSL-295
+2026-03-09 01:53:47,798 [API] [INFO] Evento recibido y publicado: Position - Placa AIW-078
+2026-03-09 01:53:47,800 [API] [INFO] Evento recibido y publicado: Position - Placa LFU-270
+2026-03-09 01:53:47,801 [API] [INFO] Evento recibido y publicado: Position - Placa SWP-425
+2026-03-09 01:53:47,802 [API] [INFO] Evento recibido y publicado: Position - Placa LAU-107
+2026-03-09 01:53:47,802 [API] [INFO] Evento recibido y publicado: Position - Placa NAQ-675
+2026-03-09 01:53:47,803 [API] [INFO] Evento recibido y publicado: Position - Placa QRU-217
+2026-03-09 01:53:47,804 [API] [INFO] Evento recibido y publicado: Position - Placa VDG-137
+2026-03-09 01:53:47,811 [API] [INFO] Evento recibido y publicado: Position - Placa NBV-335
+2026-03-09 01:53:47,858 [API] [INFO] Evento recibido y publicado: Position - Placa FSP-261
+2026-03-09 01:53:47,908 [API] [INFO] Evento recibido y publicado: Position - Placa ZSC-586
+2026-03-09 01:53:47,911 [API] [INFO] Evento recibido y publicado: Position - Placa YNY-309
+2026-03-09 01:53:47,912 [API] [INFO] Evento recibido y publicado: Position - Placa YMV-048
+2026-03-09 01:53:47,913 [API] [INFO] Evento recibido y publicado: Position - Placa XPM-538
+2026-03-09 01:53:47,915 [API] [INFO] Evento recibido y publicado: Position - Placa XPF-636
+2026-03-09 01:53:47,916 [API] [INFO] Evento recibido y publicado: Position - Placa PKQ-249
+2026-03-09 01:53:47,917 [API] [INFO] Evento recibido y publicado: Position - Placa FLE-009
+2026-03-09 01:53:47,918 [API] [INFO] Evento recibido y publicado: Position - Placa KJU-195
+2026-03-09 01:53:47,920 [API] [INFO] Evento recibido y publicado: Position - Placa UBV-458
+2026-03-09 01:53:47,962 [API] [INFO] Evento recibido y publicado: Position - Placa FMV-914
+2026-03-09 01:53:48,014 [API] [INFO] Evento recibido y publicado: Position - Placa DPV-353
+2026-03-09 01:53:48,018 [API] [INFO] Evento recibido y publicado: Position - Placa BDR-442
+2026-03-09 01:53:48,019 [API] [INFO] Evento recibido y publicado: Position - Placa FOG-356
+2026-03-09 01:53:48,022 [API] [INFO] Evento recibido y publicado: Position - Placa MOR-227
+2026-03-09 01:53:48,023 [API] [INFO] Evento recibido y publicado: Position - Placa PRK-727
+2026-03-09 01:53:48,024 [API] [INFO] Evento recibido y publicado: Position - Placa SYL-862
+2026-03-09 01:53:48,025 [API] [INFO] Evento recibido y publicado: Position - Placa ISV-750
+2026-03-09 01:53:48,025 [API] [INFO] Evento recibido y publicado: Position - Placa HTG-017
+2026-03-09 01:53:48,026 [API] [INFO] Evento recibido y publicado: Position - Placa UFQ-269
+2026-03-09 01:53:48,067 [API] [INFO] Evento recibido y publicado: Position - Placa TFR-340
+2026-03-09 01:53:48,120 [API] [INFO] Evento recibido y publicado: Position - Placa TYF-884
+2026-03-09 01:53:48,124 [API] [INFO] Evento recibido y publicado: Position - Placa HZZ-254
+2026-03-09 01:53:48,124 [API] [INFO] Evento recibido y publicado: Position - Placa KVK-396
+2026-03-09 01:53:48,127 [API] [INFO] Evento recibido y publicado: Position - Placa TAZ-826
+2026-03-09 01:53:48,128 [API] [INFO] Evento recibido y publicado: Position - Placa UZY-424
+2026-03-09 01:53:48,131 [API] [INFO] Evento recibido y publicado: Position - Placa OUG-999
+2026-03-09 01:53:48,132 [API] [INFO] Evento recibido y publicado: Position - Placa RFY-436
+2026-03-09 01:53:48,133 [API] [INFO] Evento recibido y publicado: Position - Placa LKF-686
+2026-03-09 01:53:48,134 [API] [INFO] Evento recibido y publicado: Position - Placa KIN-940
+2026-03-09 01:53:48,171 [API] [INFO] Evento recibido y publicado: Position - Placa QZX-279
+2026-03-09 01:53:48,227 [API] [INFO] Evento recibido y publicado: Position - Placa CRA-865
+2026-03-09 01:53:48,229 [API] [INFO] Evento recibido y publicado: Position - Placa CLH-665
+2026-03-09 01:53:48,230 [API] [INFO] Evento recibido y publicado: Position - Placa WLX-534
+2026-03-09 01:53:48,236 [API] [INFO] Evento recibido y publicado: Position - Placa AOE-871
+2026-03-09 01:53:48,237 [API] [INFO] Evento recibido y publicado: Position - Placa LLL-746
+2026-03-09 01:53:48,238 [API] [INFO] Evento recibido y publicado: Position - Placa BJK-732
+2026-03-09 01:53:48,239 [API] [INFO] Evento recibido y publicado: Position - Placa VFL-904
+2026-03-09 01:53:48,240 [API] [INFO] Evento recibido y publicado: Position - Placa DEM-448
+2026-03-09 01:53:48,240 [API] [INFO] Evento recibido y publicado: Position - Placa CKP-903
+2026-03-09 01:53:48,275 [API] [INFO] Evento recibido y publicado: Position - Placa HXP-640
+2026-03-09 01:53:48,335 [API] [INFO] Evento recibido y publicado: Position - Placa XTK-552
+2026-03-09 01:53:48,340 [API] [INFO] Evento recibido y publicado: Position - Placa PZX-763
+2026-03-09 01:53:48,340 [API] [INFO] Evento recibido y publicado: Position - Placa PSX-061
+2026-03-09 01:53:48,345 [API] [INFO] Evento recibido y publicado: Position - Placa PHA-892
+2026-03-09 01:53:48,345 [API] [INFO] Evento recibido y publicado: Position - Placa LOS-952
+2026-03-09 01:53:48,346 [API] [INFO] Evento recibido y publicado: Position - Placa ZSZ-916
+2026-03-09 01:53:48,348 [API] [INFO] Evento recibido y publicado: Position - Placa OVH-029
+2026-03-09 01:53:48,348 [API] [INFO] Evento recibido y publicado: Emergency - Placa ITT-647
+2026-03-09 01:53:48,349 [API] [INFO] Evento recibido y publicado: Position - Placa ZVW-184
+2026-03-09 01:53:48,382 [API] [INFO] Evento recibido y publicado: Position - Placa WWN-235
+2026-03-09 01:53:48,440 [API] [INFO] Evento recibido y publicado: Position - Placa GQA-392
+2026-03-09 01:53:48,444 [API] [INFO] Evento recibido y publicado: Position - Placa CFR-911
+2026-03-09 01:53:48,445 [API] [INFO] Evento recibido y publicado: Position - Placa TCG-788
+2026-03-09 01:53:48,448 [API] [INFO] Evento recibido y publicado: Position - Placa LKO-197
+2026-03-09 01:53:48,450 [API] [INFO] Evento recibido y publicado: Position - Placa VFH-472
+2026-03-09 01:53:48,453 [API] [INFO] Evento recibido y publicado: Position - Placa TQF-378
+2026-03-09 01:53:48,453 [API] [INFO] Evento recibido y publicado: Emergency - Placa UCB-061
+2026-03-09 01:53:48,453 [API] [INFO] Evento recibido y publicado: Position - Placa CZC-374
