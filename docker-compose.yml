@@ -15,6 +15,7 @@ services:
       replicas: 3
     environment:
       - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_PORT=5672
     volumes:
       - ./logs:/logs
     depends_on:
@@ -25,6 +26,11 @@ services:
     ports:
       - "5672:5672"
       - "15672:15672"
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "status"]
+      interval: 5s
+      timeout: 2s
+      retries: 10
 
   processor:
     build: ./processor
@@ -36,14 +42,16 @@ services:
     volumes:
       - ./logs:/logs
     depends_on:
-      - rabbitmq
-      - notifier
+      rabbitmq:
+        condition: service_healthy
+      notifier:
+        condition: service_started
 
   notifier:
     build: ./notifier
     environment:
-      - GMAIL_USER=juanpcr2009@gmail.com
+      - GMAIL_USER=jpcanonr@gmail.com
       # Es necesario crear App Password en la cuenta de Gmail para usar esta contraseña
-      - GMAIL_PASS=opgrhevnwwktzywv
+      - GMAIL_PASS=hadujswbcsunmamd
     volumes:
       - ./logs:/logs

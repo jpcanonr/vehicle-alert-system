@@ -1,74 +1,36 @@
 import http from 'k6/http';
-import { check, sleep } from 'k6' ;
+import { check } from 'k6';
+
+const configuredRate = 20;
 
 export const options = {
-  scenarios: {
-    configurable_rate_test: {
-      executor: 'constant-arrival-rate',
-      rate: 20,          // Requests por segundo
-      timeUnit: '1s',
-      duration: '30s',
-      preAllocatedVUs: 50,
-      maxVUs: 200,
+    scenarios: {
+        configurable_rate_test: {
+            executor: 'constant-arrival-rate',
+            rate: configuredRate,      // valor configurable
+            timeUnit: '1s',
+            duration: '30s',
+            preAllocatedVUs: 50,
+            maxVUs: 200,
+        },
     },
-  },
+    thresholds: {
+        // opcional: marcar como fallo si alguna solicitud devuelve 429 (tasa mayor que 0)
+        'http_req_failed{status:429}': ['rate>0'],
+    },
 };
 
-// Índice global para iteraciones (variable compartida entre VUs)
-let globalIndex = 0;
-
-// Bloque para incrementar el índice global de forma segura
-function getGlobalIndex() {
-  return globalIndex++;
-}
-
-// Generar placa de vehículo
-function generateVehiclePlate() {
-  const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  const numbers = '0123456789';
-  return `${letters.charAt(Math.floor(Math.random() * letters.length))}${letters.charAt(Math.floor(Math.random() * letters.length))}${letters.charAt(Math.floor(Math.random() * letters.length))}-${numbers.charAt(Math.floor(Math.random() * numbers.length))}${numbers.charAt(Math.floor(Math.random() * numbers.length))}${numbers.charAt(Math.floor(Math.random() * numbers.length))}`;
-}
-
-// Generar coordenadas
-function generateCoordinates() {
-  return {
-    latitude: (Math.random() * 180 - 90).toFixed(6),
-    longitude: (Math.random() * 360 - 180).toFixed(6),
-  };
-}
-
-// Generar tipo de mensaje usando índice global calculado
-function generateType(globalIndex) {
-  return globalIndex < 990 ? 'Position' : 'Emergency';
-}
-
-// Función principal
 export default function () {
-  // Cálculo del índice global
-  const globalIndex = (__VU - 1) * (options.iterations / options.vus) + __ITER;
-  
+  const url = 'http://localhost:8080/events';
   const payload = JSON.stringify({
-    type: generateType(globalIndex),
-    vehicle_plate: generateVehiclePlate(),
-    coordinates: generateCoordinates(),
+    type: Math.random() < 0.01 ? 'Emergency' : 'Position',
+    vehicle_plate: 'ABC-123',
+    coordinates: { latitude: 12.345, longitude: 67.89 },
     status: 'OK',
   });
 
-  const headers = { 'Content-Type': 'application/json' };
+  const params = { headers: { 'Content-Type': 'application/json' } };
 
-  const res = http.post('http://localhost:8080/events', payload, { headers });
-
-  console.log(JSON.stringify({
-    globalIndex,
-    type: payload.type,
-    timestamp: new Date().toISOString(),
-    status: res.status,
-    duration: res.timings.duration
-  }));
-
-  check(res, {
-    'is status 200': (r) => r.status === 200,
-  });
-
-  sleep(0.1);
+  const res = http.post(url, payload, params);
+  check(res, { 'status is 200': (r) => r.status === 200 });
 }

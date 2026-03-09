@@ -32,7 +32,7 @@ function generateCoordinates() {
 
 // Generar tipo de mensaje usando índice global calculado
 function generateType(globalIndex) {
-  return globalIndex < 950 ? 'Position' : 'Emergency';
+  return globalIndex < 998 ? 'Position' : 'Emergency';
 }
 
 // Función principal

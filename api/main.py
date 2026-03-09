@@ -18,25 +18,41 @@ app = FastAPI()
 
 RABBITMQ_HOST = os.getenv("RABBITMQ_HOST", "rabbitmq")
 
-# Pool de conexiones (singleton)
+# Pool de conexiones (singleton) con protección de concurrencia
+import threading
+
 class RabbitMQPool:
-    connection = None
-    channel = None
+    # Se mantiene un `threading.local` para que cada hilo tenga su propia conexión y canal.
+    _local = threading.local()
+    _lock = threading.Lock()
 
     @classmethod
     def get_channel(cls):
-        if cls.connection is None or cls.connection.is_closed:
-            try:
-                cls.connection = pika.BlockingConnection(
-                    pika.ConnectionParameters(host=RABBITMQ_HOST)
-                )
-                cls.channel = cls.connection.channel()
-                cls.channel.queue_declare(queue="events")
-                logger.info("Conexión RabbitMQ inicializada")
-            except Exception as e:
-                logger.error(f"Error inicializando conexión RabbitMQ: {e}")
-                raise
-        return cls.channel
+        # Cada hilo consulta su propia conexión almacenada en thread-local
+        conn = getattr(cls._local, "connection", None)
+        chan = getattr(cls._local, "channel", None)
+
+        if conn is None or getattr(conn, "is_closed", True):
+            # proteger la creación para evitar que varios hilos abran conexiones simultáneas
+            with cls._lock:
+                conn = getattr(cls._local, "connection", None)
+                if conn is None or getattr(conn, "is_closed", True):
+                    try:
+                        conn = pika.BlockingConnection(
+                            pika.ConnectionParameters(host=os.getenv("RABBITMQ_HOST", "rabbitmq"))
+                        )
+                        chan = conn.channel()
+                        chan.queue_declare(queue="events")
+                        cls._local.connection = conn
+                        cls._local.channel = chan
+                        logger.info("Conexión RabbitMQ inicializada (thread=%s)", threading.get_ident())
+                    except Exception as e:
+                        # limpiar para que el siguiente intento recree
+                        cls._local.connection = None
+                        cls._local.channel = None
+                        logger.error(f"Error inicializando conexión RabbitMQ: {e}")
+                        raise
+        return chan
 
 # Tipo de datos de las coordenadas
 class Coordinates(BaseModel):
@@ -64,5 +80,9 @@ def receive_event(event: Event):
         logger.info(f"Evento recibido y publicado: {event.type} - Placa {event.vehicle_plate}")
         return {"status": "ok"}
     except Exception as e:
-        logger.error(f"Error publicando evento: {e}")
+        # en caso de fallo forzamos recreación de la conexión la próxima vez
+        thread_local = RabbitMQPool._local
+        thread_local.connection = None
+        thread_local.channel = None
+        logger.error(f"Error publicando evento (se limpiará conexión): {e}")
         return {"status": "error"}

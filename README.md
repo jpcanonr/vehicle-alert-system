@@ -573,3 +573,18 @@ Proyecto educativo - Uso libre para fines académicos
 
 **Última Actualización:** Febrero 2026 
 **Mantenedor:** Juan Pablo Cañón
+
+docker-compose up --build
+docker-compose down
+
+k6 run k6/k6-script.js
+k6 run k6/rate-limit-test.js
+
+curl -X POST http://localhost:8080/events \
+  -H "Content-Type: application/json" \
+  -d '{
+    "type": "Emergency",
+    "vehicle_plate": "AAA-000",
+    "coordinates": { "latitude": 12.345, "longitude": 67.890 },
+    "status": "OK"
+  }'
