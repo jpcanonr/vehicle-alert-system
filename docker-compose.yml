@@ -16,16 +16,22 @@ services:
     environment:
       - RABBITMQ_HOST=rabbitmq
       - RABBITMQ_PORT=5672
+      - RABBITMQ_USER=admin
+      - RABBITMQ_PASS=secret
     volumes:
       - ./logs:/logs
     depends_on:
-      - rabbitmq
+      rabbitmq:
+        condition: service_healthy
 
   rabbitmq:
     image: rabbitmq:4-management
     ports:
       - "5672:5672"
       - "15672:15672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=admin
+      - RABBITMQ_DEFAULT_PASS=secret
     healthcheck:
       test: ["CMD", "rabbitmqctl", "status"]
       interval: 5s
@@ -39,6 +45,8 @@ services:
     environment:
       - RABBITMQ_HOST=rabbitmq
       - NOTIFIER_URL=http://notifier:8001/notify
+      - RABBITMQ_USER=admin
+      - RABBITMQ_PASS=secret
     volumes:
       - ./logs:/logs
     depends_on:

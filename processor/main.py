@@ -13,6 +13,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 RABBITMQ_HOST = os.getenv("RABBITMQ_HOST", "rabbitmq")
+RABBITMQ_USER = os.getenv("RABBITMQ_USER", "admin")
+RABBITMQ_PASS = os.getenv("RABBITMQ_PASS", "secret")
 NOTIFIER_URL = os.getenv("NOTIFIER_URL", "http://notifier:8001/notify")
 
 # Función para notificar con reintentos exponenciales
@@ -27,7 +29,7 @@ def notify(event):
                 logger.error(f"Error HTTP {resp.status_code} notificando")
         except Exception as e:
             logger.error(f"Error notificando: {e}, intento {attempt+1}")
-        time.sleep(2 ** attempt)
+        time.sleep(2 ** attempt) # espera 1s, luego 2s, luego 4s entre intentos
 
 def callback(ch, method, properties, body):
     event = json.loads(body.decode("utf-8"))
@@ -39,10 +41,13 @@ def callback(ch, method, properties, body):
 def main():
     while True:
         try:
-            connection = pika.BlockingConnection(pika.ConnectionParameters(host=RABBITMQ_HOST))
+            credentials = pika.PlainCredentials(RABBITMQ_USER, RABBITMQ_PASS)
+            connection = pika.BlockingConnection(
+                pika.ConnectionParameters(host=RABBITMQ_HOST, credentials=credentials)
+            )
             channel = connection.channel()
-            channel.queue_declare(queue="events")
-            channel.basic_consume(queue="events", on_message_callback=callback, auto_ack=True)
+            channel.queue_declare(queue="events", durable=True) # marcar la cola como durable para sobrevivir reinicios
+            channel.basic_consume(queue="events", on_message_callback=callback, auto_ack=True) # auto_ack=True para no bloquear en caso de fallo
             logger.info("Processor esperando mensajes...")
             channel.start_consuming()
         except Exception as e:
